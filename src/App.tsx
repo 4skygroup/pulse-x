@@ -1,8 +1,10 @@
+import Hero from "./Hero.tsx";
+
 function App() {
 
   return (
       <>
-        test
+          <Hero/>
       </>
   );
 
