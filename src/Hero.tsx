@@ -2,11 +2,11 @@ export default function Hero() {
     return (
         <section className="relative h-screen overflow-hidden bg-black text-white">
 
-            {/* Gradient rouge bas */}
-            <div className="absolute inset-0 from-black via-black to-red-700" />
+            {/* Gradient */}
+            <div className="absolute inset-0 bg-linear-to-b from-black via-black via-45% to-red-600" />
 
             {/* Glow rouge */}
-            <div className="absolute bottom-[-200px] left-1/2 -translate-x-1/2 w-[1200px] h-[500px] bg-red-600 blur-3xl opacity-70 rounded-full" />
+            <div className="absolute -bottom-62.5 left-1/2 -translate-x-1/2 w-300 h-125 bg-red-600 blur-3xl opacity-80 rounded-full" />
 
             {/* Content */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full px-6 text-center">
