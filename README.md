@@ -1,0 +1,1 @@
+## PulseX est l'agence social media du groupe Play To Sky. Spécialisée dans le Brand Content, la Social Ads et l'Influence marketing, elle accompagne ses clients B2B dans la création de stratégies sociales performantes. Sa promesse : "We turn attention into revenue".
