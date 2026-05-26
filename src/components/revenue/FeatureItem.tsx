@@ -3,10 +3,7 @@ type FeatureItemProps = {
     description: string;
 };
 
-export default function FeatureItem({
-                                        title,
-                                        description,
-                                    }: FeatureItemProps) {
+export default function FeatureItem({title, description,}: FeatureItemProps) {
     return (
         <div className="grid grid-cols-[140px_1fr] gap-8 items-start">
 

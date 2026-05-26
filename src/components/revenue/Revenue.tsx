@@ -23,7 +23,7 @@ const services = [
     },
 ];
 
-export default function ServicesSection() {
+export default function Revenue() {
     return (
         <section className="bg-black text-white py-28 px-6">
 
