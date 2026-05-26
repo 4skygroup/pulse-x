@@ -1,1 +1,31 @@
-@import "tailwindcss";
+@config "../tailwind.config.js";
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@layer theme, base, components, utilities;
+
+@font-face {
+    font-family: "Glacial Indifference";
+    src:
+            url("/fonts/GlacialIndifference-Bold.woff2") format("woff2"),
+            url("/fonts/GlacialIndifference-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Glacial Indifference";
+    src:
+            url("/fonts/GlacialIndifference-Regular.woff2") format("woff2"),
+            url("/fonts/GlacialIndifference-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html,
+body,
+#root {
+    overflow-x: hidden;
+}

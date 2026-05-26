@@ -25,7 +25,7 @@ const services = [
 
 export default function Revenue() {
     return (
-        <section className="bg-black text-white py-28 px-6">
+        <section className="bg-black text-white py-28 px-6 overflow-x-hidden">
 
             <div className="max-w-5xl mx-auto">
 
@@ -46,7 +46,8 @@ export default function Revenue() {
                 </div>
 
                 {/* Features */}
-                <div className="flex flex-col gap-12 max-w-3xl mx-auto">                    {services.map((service, index) => (
+                <div className="flex flex-col gap-12 max-w-3xl mx-auto">
+                    {services.map((service, index) => (
                         <FeatureItem
                             key={index}
                             title={service.title}

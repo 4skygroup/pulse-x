@@ -1,0 +1,73 @@
+type ServiceCardProps = {
+    title: string;
+    subtitle: string;
+    features: string[];
+    stat: string;
+    statLabel: string;
+    index?: number;
+};
+
+export default function ServiceCard({
+    title,
+    subtitle,
+    features,
+    stat,
+    statLabel,
+    index = 0,
+    }: ServiceCardProps) {
+
+    const delays = ["0s", "0.6s", "1.2s"];
+
+    return (
+        <div
+            className="relative overflow-hidden rounded-2xl border border-pulse-x-red bg-black"
+            style={{
+                animation: "pulseZoom 3s ease-in-out infinite",
+                animationDelay: delays[index % delays.length],
+            }}
+        >
+            <style>{`
+                @keyframes pulseZoom {
+                    0%   { transform: scale(1); }
+                    50%  { transform: scale(1.025); }
+                    100% { transform: scale(1); }
+                }
+            `}</style>
+
+            {/* Glow */}
+            <div className="absolute inset-0 bg-pulse-x-red opacity-10 blur-3xl" />
+
+            <div className="relative grid md:grid-cols-[2.3fr_1fr]">
+
+                {/* Left */}
+                <div className="p-8 md:p-10">
+                    <h3 className="text-white font-bold text-t4 uppercase mb-2">
+                        {title}
+                    </h3>
+                    <p className="text-white text-t5 mb-6">
+                        {subtitle}
+                    </p>
+                    <ul className="space-y-1">
+                        {features.map((feature, i) => (
+                            <li key={i} className="text-pulse-x-subtitle-gray text-t6">
+                                {feature}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                {/* Right */}
+                <div className="border-t md:border-t-0 md:border-l border-pulse-x-red flex flex-col items-center justify-center gap-6 p-8">
+                    <div className="text-center">
+                        <p className="text-pulse-x-red text-4xl font-bold">{stat}</p>
+                        <p className="text-white text-t6 mt-1">{statLabel}</p>
+                    </div>
+                    <button className="bg-pulse-x-red hover:bg-pulse-x-dark-red transition-colors duration-300 text-white text-t6 font-bold px-5 py-2 rounded-lg">
+                        Learn more &gt;
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    );
+}
