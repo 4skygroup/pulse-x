@@ -1,13 +1,18 @@
-import Hero from "./Hero.tsx";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Services from "./components/services/Services.tsx";
 
 function App() {
-
-  return (
-      <>
-          <Hero/>
-      </>
-  );
-
+    return (
+        <>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/services" element={<Services />} />
+            </Routes>
+        </>
+    );
 }
 
-export default App
+export default App;
