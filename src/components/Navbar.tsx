@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const navItems = [
-    { label: "Home",     path: "/" },
+    { label: "The Group",     path: "/" },
     { label: "Services", path: "/services" },
     { label: "About",    path: "/about" },
     { label: "Contact",  path: "/contact" },
