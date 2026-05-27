@@ -53,12 +53,12 @@ export default function Services() {
     return (
         <section className="relative overflow-hidden bg-black py-28 px-6">
 
-            {/* Background glow */}
+            {/* Background red zoom in zoom out */}
             <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-225 h-225 bg-pulse-x-red opacity-20 blur-3xl rounded-full" />
+                <div className="w-225 h-225 bg-pulse-x-red opacity-20 blur-3xl rounded-full animate-pulse" />
             </div>
 
-            <div className="relative max-w-6xl mx-auto">
+            <div className="relative max-w-5xl mx-auto">
 
                 {/* Title */}
                 <h2 className="text-center text-white text-h7 font-bold uppercase mb-14">
@@ -66,7 +66,7 @@ export default function Services() {
                 </h2>
 
                 {/* Cards */}
-                <div className="flex flex-col gap-8">
+                <div className="flex flex-col gap-5">
                     {services.map((service, index) => (
                         <ServiceCard
                             key={index}

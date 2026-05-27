@@ -4,6 +4,17 @@ module.exports = {
     content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
     theme: {
         extend: {
+
+            animation: {
+                'breathe': 'breathe 4s ease-in-out infinite',
+            },
+            keyframes: {
+                breathe: {
+                    '0%, 100%': { transform: 'scale(1)' },
+                    '50%': { transform: 'scale(2)' },
+                },
+            },
+
             colors: {
                 // Pulse X Colors
                 "pulse-x-red": "#F23333",

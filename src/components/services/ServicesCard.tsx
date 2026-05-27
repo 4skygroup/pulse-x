@@ -25,14 +25,14 @@ export default function ServiceCard({
             <div className="relative grid md:grid-cols-[2.3fr_1fr]">
 
                 {/* Left */}
-                <div className="p-8 md:p-10">
+                <div className="p-5 md:p-7">
                     <h3 className="text-white font-bold text-t3 uppercase mb-2">
                         {title}
                     </h3>
                     <p className="text-white text-t4 mb-6">
                         {subtitle}
                     </p>
-                    <ul className="space-y-1">
+                    <ul className="space-y-0.5">
                         {features.map((feature, i) => (
                             <li key={i} className="text-pulse-x-subtitle-gray text-t5">
                                 {feature}
@@ -42,7 +42,7 @@ export default function ServiceCard({
                 </div>
 
                 {/* Right */}
-                <div className="border-t md:border-t-0 md:border-l border-pulse-x-red flex flex-col items-center justify-center gap-6 p-8">
+                <div className="border-t md:border-t-0 md:border-l border-pulse-x-red flex flex-col items-center justify-center gap-6 p-5">
                     <div className="text-center">
                         <p className="text-pulse-x-red text-4xl font-bold">{stat}</p>
                         <p className="text-white text-t6 mt-1">{statLabel}</p>
