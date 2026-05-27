@@ -8,48 +8,33 @@ type ServiceCardProps = {
 };
 
 export default function ServiceCard({
-    title,
-    subtitle,
-    features,
-    stat,
-    statLabel,
-    index = 0,
+        title,
+        subtitle,
+        features,
+        stat,
+        statLabel,
     }: ServiceCardProps) {
-
-    const delays = ["0s", "0.6s", "1.2s"];
 
     return (
         <div
-            className="relative overflow-hidden rounded-2xl border border-pulse-x-red bg-black"
-            style={{
-                animation: "pulseZoom 3s ease-in-out infinite",
-                animationDelay: delays[index % delays.length],
-            }}
+            className="relative overflow-hidden rounded-2xl border border-pulse-x-red bg-black transition-transform duration-300 ease-in-out hover:scale-[1.025]"
         >
-            <style>{`
-                @keyframes pulseZoom {
-                    0%   { transform: scale(1); }
-                    50%  { transform: scale(1.025); }
-                    100% { transform: scale(1); }
-                }
-            `}</style>
-
             {/* Glow */}
-            <div className="absolute inset-0 bg-pulse-x-red opacity-10 blur-3xl" />
+            <div className="absolute inset-0 bg-black opacity-10 blur-3xl" />
 
             <div className="relative grid md:grid-cols-[2.3fr_1fr]">
 
                 {/* Left */}
                 <div className="p-8 md:p-10">
-                    <h3 className="text-white font-bold text-t4 uppercase mb-2">
+                    <h3 className="text-white font-bold text-t3 uppercase mb-2">
                         {title}
                     </h3>
-                    <p className="text-white text-t5 mb-6">
+                    <p className="text-white text-t4 mb-6">
                         {subtitle}
                     </p>
                     <ul className="space-y-1">
                         {features.map((feature, i) => (
-                            <li key={i} className="text-pulse-x-subtitle-gray text-t6">
+                            <li key={i} className="text-pulse-x-subtitle-gray text-t5">
                                 {feature}
                             </li>
                         ))}
