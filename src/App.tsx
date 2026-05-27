@@ -1,17 +1,18 @@
-import Hero from "./Hero.tsx";
-import Revenue from "./components/revenue/Revenue.tsx";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 import Services from "./components/services/Services.tsx";
 
 function App() {
-
-  return (
-      <>
-          <Hero/>
-          <Revenue/>
-          <Services/>
-      </>
-  );
-
+    return (
+        <>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/services" element={<Services />} />
+            </Routes>
+        </>
+    );
 }
 
-export default App
+export default App;
