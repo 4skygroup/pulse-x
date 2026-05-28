@@ -1,5 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 type ServiceCardProps = {
     title: string;
+    path: string;
     subtitle: string;
     features: string[];
     stat: string;
@@ -9,15 +12,20 @@ type ServiceCardProps = {
 
 export default function ServiceCard({
         title,
+        path,
         subtitle,
         features,
         stat,
         statLabel,
     }: ServiceCardProps) {
 
+    const navigate = useNavigate();
+
     return (
+
         <div
-            className="relative overflow-hidden rounded-2xl border border-pulse-x-red bg-black transition-transform duration-300 ease-in-out hover:scale-[1.025]"
+            className="cursor-pointer relative overflow-hidden rounded-2xl border border-pulse-x-red bg-black transition-transform duration-300 ease-in-out hover:scale-[1.025]"
+            onClick={() => navigate(path)}
         >
             {/* Glow */}
             <div className="absolute inset-0 bg-black opacity-10 blur-3xl" />
