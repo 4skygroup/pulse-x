@@ -15,7 +15,7 @@ export default function Navbar() {
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black flex items-center justify-between px-8 py-4">
             {/* Logo */}
             <NavLink to="/" className="shrink-0">
-                <img src="/logo.png" alt="Pulse X" className="h-8" />
+                <img src="/logoPulseX.png" alt="Pulse X" className="h-8" />
             </NavLink>
 
             {/* Desktop nav */}
