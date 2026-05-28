@@ -6,9 +6,7 @@
 
 @font-face {
     font-family: "Glacial Indifference";
-    src:
-            url("/fonts/GlacialIndifference-Bold.woff2") format("woff2"),
-            url("/fonts/GlacialIndifference-Bold.woff") format("woff");
+    src: url("/fonts/GlacialIndifference-Bold.woff2") format("woff2");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -16,9 +14,7 @@
 
 @font-face {
     font-family: "Glacial Indifference";
-    src:
-            url("/fonts/GlacialIndifference-Regular.woff2") format("woff2"),
-            url("/fonts/GlacialIndifference-Regular.woff") format("woff");
+    src: url("/fonts/GlacialIndifference-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
