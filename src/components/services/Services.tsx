@@ -3,6 +3,7 @@ import ServiceCard from "./ServicesCard.tsx";
 const services = [
     {
         title: "Brand Content",
+        path: "/brandcontent",
         subtitle:
             "Full management of your TikTok and Instagram accounts",
         features: [
@@ -18,6 +19,7 @@ const services = [
     },
     {
         title: "Social Ads",
+        path: "/socialads",
         subtitle:
             "Performance-driven video production",
         features: [
@@ -34,6 +36,7 @@ const services = [
     },
     {
         title: "Influence",
+        path: "/influence",
         subtitle:
             "Support for launching campaigns",
         features: [
@@ -71,6 +74,7 @@ export default function Services() {
                         <ServiceCard
                             key={index}
                             index={index}
+                            path={service.path}
                             title={service.title}
                             subtitle={service.subtitle}
                             features={service.features}
