@@ -7,38 +7,38 @@ export interface FAQItem {
 export const faqData: FAQItem[] = [
     {
         id: 1,
-        question: "Pourquoi choisir une agence TikTok spécialisée comme Pulse X ?",
+        question: "Why entrust your social media to Pulse X?",
         answer:
-            "Pulse X est une agence 100% dédiée à TikTok. Contrairement aux agences généralistes, nous maîtrisons les codes, les algorithmes et les tendances propres à la plateforme. Notre expertise vous garantit des stratégies de contenu adaptées, des créations virales et une croissance organique mesurable sur TikTok.",
+            "Because an effective social media presence can’t be improvised. From strategy and content creation to advertising and analytics, every step matters. Pulse X brings all these areas of expertise together within a single team, with a constant commitment to quality. You benefit from consistent management of all your social media channels—Instagram, TikTok, and beyond—rather than scattered efforts.",
     },
     {
         id: 2,
-        question: "Quels services propose Pulse X ?",
+        question: "What services does Pulse X offer?",
         answer:
-            "Pulse X propose une gamme complète de services TikTok : création de contenu et stratégie éditoriale, gestion de compte, publicité TikTok Ads, influence marketing, accompagnement à la formation de vos équipes, et reporting de performance détaillé.",
+            "Pulse X covers your entire social media presence: editorial strategy, content creation, account management, digital advertising (Meta Ads, TikTok Ads), community engagement, and performance reporting. From conception to distribution, your communication is managed end-to-end, with a consistent voice across every platform.",
     },
     {
         id: 3,
-        question: "Comment Pulse X peut-elle développer mon audience sur TikTok ?",
+        question: "How does Pulse X grow my visibility and audience?",
         answer:
-            "Nous analysons votre cible, vos concurrents et les tendances actuelles pour créer du contenu engageant et optimisé algorithmiquement. En combinant créativité, régularité et data, nous augmentons votre visibilité organique et atteignons de nouvelles audiences qualifiées.",
+            "Our approach is based on data and iteration. We define your positioning, build a distinctive editorial strategy, and then produce content designed to maximize reach and engagement. Every action is measured, analyzed, and adjusted. The goal isn’t just to rack up numbers, but to build a qualified, engaged audience that generates value.",
     },
     {
         id: 4,
-        question: "Quel budget prévoir pour travailler avec Pulse X ?",
+        question: "What budget should you plan for when working with Pulse X?",
         answer:
-            "Nos offres sont adaptées à différents profils, de la startup à la grande entreprise. Nous proposons des formules à partir de 1 500€/mois pour la gestion de contenu, jusqu'à des dispositifs plus complets incluant ads et influence. Contactez-nous pour un devis personnalisé.",
+            "Our services are tailored to your specific goals and the scope of work you choose—whether that’s content management, paid acquisition, or full-service management. This approach ensures your investment aligns with your ambitions and delivers measurable results. We’ll provide a clear, detailed proposal following our initial consultation.",
     },
     {
         id: 5,
-        question: "Quelle différence entre Pulse X et une agence social media généraliste ?",
+        question: "What’s the difference between Pulse X and a traditional social media agency?",
         answer:
-            "Une agence généraliste gère plusieurs plateformes avec une approche standardisée. Pulse X se concentre exclusivement sur TikTok, ce qui nous permet d'être en veille constante sur les nouvelles fonctionnalités, formats et tendances. Vous bénéficiez d'une expertise pointue et d'une réactivité maximale sur la plateforme.",
+            "Pulse X is part of the Play to Sky Group ecosystem. Beyond managing your social media accounts, you gain access to a full-service creative group: branding, motion design, video production, and SEO. A single point of contact, total consistency, and the ability to scale your communication efforts far beyond social media.",
     },
     {
         id: 6,
-        question: "Comment mesurez-vous la performance des campagnes ?",
+        question: "How do you measure campaign performance?",
         answer:
-            "Nous suivons des KPIs précis adaptés à vos objectifs : vues, taux d'engagement, croissance d'abonnés, portée, clics, conversions, et ROI publicitaire. Vous recevez des rapports réguliers clairs et actionnables pour piloter votre stratégie TikTok en temps réel.",
+            "We manage each campaign based on specific metrics: reach, engagement rate, audience growth, traffic generated, and conversions. You receive regular, clear, and actionable reports highlighting results, decisions made, and strategies implemented. Transparency is the foundation of our client relationships.",
     },
 ];

@@ -22,46 +22,47 @@ export default function HeroComp({
             <div className="absolute inset-0 bg-linear-to-b from-black via-black via-45% to-red-600" />
 
             {/* Glow rouge */}
-            <div className="absolute -bottom-62.5 left-1/2 -translate-x-1/2 w-300 h-125 bg-pulse-x-red blur-3xl opacity-80 rounded-full" />
+            <div className="absolute -bottom-40 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-pulse-x-red blur-3xl opacity-80 rounded-full md:w-[1000px] md:h-[400px]" />
 
-            {/* Overlay léger */}
+            {/* Overlay */}
             <div className="absolute inset-0 bg-black/20" />
 
-            {/* Contenu */}
-            <div className="relative z-10 flex min-h-screen flex-col px-20 max-w-[1400px] mx-auto w-full">
+            {/* Content */}
+            <div className="relative z-10 flex min-h-screen flex-col px-6 sm:px-10 lg:px-20 max-w-[1400px] mx-auto w-full">
+
                 {/* TOP */}
-                <div className="grid grid-cols-[1.4fr_1fr] items-center gap-16 pt-32">
+                <div className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] items-center gap-14 lg:gap-16 pt-28 lg:pt-32">
 
                     {/* LEFT */}
                     <div className="flex flex-col">
-                        <h2 className="text-h2 text-white leading-[0.8] whitespace-nowrap">
+                        <h2 className="text-white leading-[0.85] font-semibold text-5xl sm:text-6xl md:text-7xl lg:text-h2">
                             {titre}
                         </h2>
 
-                        <p className="mt-6 text-pulse-x-subtitle-gray text-t3 italic">
+                        <p className="mt-5 text-pulse-x-subtitle-gray italic text-lg sm:text-xl md:text-2xl">
                             {citation}
                         </p>
                     </div>
 
                     {/* RIGHT */}
                     <div className="flex flex-col min-w-0 max-w-[520px] justify-center">
-                        <h2 className="text-white text-h6 leading-tight font-medium">
+                        <h2 className="text-white leading-tight font-medium text-2xl sm:text-3xl lg:text-h6">
                             {tagline}
                         </h2>
 
-                        <p className="mt-5 text-pulse-x-subtitle-gray text-t4">
+                        <p className="mt-5 text-pulse-x-subtitle-gray text-base sm:text-lg md:text-xl">
                             {sousTitre}
                         </p>
 
-                        <button className="mt-8 w-fit rounded-full border border-white px-8 py-4 text-white text-t4 transition-all duration-300 hover:bg-white hover:text-black">
+                        <button className="mt-8 w-fit rounded-full border border-white px-6 py-3 sm:px-8 sm:py-4 text-white text-base sm:text-lg transition-all duration-300 hover:bg-white hover:text-black">
                             {cta}
                         </button>
                     </div>
                 </div>
 
                 {/* BOTTOM */}
-                <div className="max-w-[1200px] pb-10 mt-32">
-                    <p className="text-white/90 text-t4 leading-relaxed tracking-wide">
+                <div className="max-w-[1200px] pb-10 mt-20 lg:mt-32">
+                    <p className="text-white/90 leading-relaxed tracking-wide text-base sm:text-lg md:text-xl">
                         {description}
                     </p>
                 </div>

@@ -47,7 +47,7 @@ const FAQRow = ({ item }: { item: FAQItem }) => {
                     opacity: isOpen ? 1 : 0,
                 }}
             >
-                <p className="font-glacial text-t6 text-pulse-x-subtitle-gray pb-5 leading-relaxed">
+                <p className="font-glacial text-t5 text-pulse-x-subtitle-gray pb-5 leading-relaxed">
                     {item.answer}
                 </p>
             </div>
