@@ -1,49 +1,58 @@
-const HeroSection = () => {
+const About = () => {
     return (
         <div>
             <section className="w-full bg-white">
-                {/* Image placeholder */}
-                <div className="w-full bg-white flex items-center justify-center" style={{ minHeight: "500px" }}>
+
+                {/* Image */}
+                <div className="w-full bg-white flex items-center justify-center px-4 md:px-12 lg:px-20 pt-6 md:pt-10">
                     <img
-                        src=""
+                        src="/logoPulseX.png"
                         alt="Hero"
-                        className="w-full h-full object-cover"
-                        style={{ minHeight: "500px" }}
+                        className="w-full max-w-6xl h-[260px] md:h-[500px] object-contain rounded-xl"
                     />
                 </div>
 
                 {/* Red banner */}
-                <div className="w-full bg-[#970909] py-4 px-8">
-                    <p className="text-white text-t5 text-center font-glacial italic">
+                <div className="w-full bg-[#970909] py-4 px-4 md:px-8 mt-6 md:mt-10">
+                    <p className="text-white text-t6 md:text-t5 text-center font-glacial italic max-w-4xl mx-auto leading-relaxed">
                         Pulse X is powered by a team of specialists who are deeply in tune with evolving digital behaviors.
                     </p>
                 </div>
+
             </section>
 
-            <section className="w-full bg-[#970909] py-16 px-8 flex flex-col items-center">
+            <section className="w-full bg-[#970909] py-14 md:py-20 px-4 md:px-8 flex flex-col items-center">
+
                 {/* Intro paragraph */}
-                <p className="text-white text-t5 text-center max-w-3xl mb-12 font-glacial leading-relaxed">
+                <p className="text-white text-t6 md:text-t5 text-center max-w-3xl mb-10 md:mb-14 font-glacial leading-relaxed">
                     From the start, we set out to rethink the traditional agency model by bringing multiple skill sets together under
                     one role, combining client guidance, creative thinking, and production expertise. This approach was designed
                     to match a new generation of talent eager to leverage their resources.
                 </p>
 
                 {/* Three columns */}
-                <div className="w-full max-w-4xl flex flex-col gap-10">
+                <div className="w-full max-w-5xl flex flex-col gap-8 md:gap-12">
+
                     {/* Project leads */}
                     <div className="text-center">
-                        <h3 className="text-white text-t4 font-bold font-glacial mb-3">Project leads</h3>
-                        <p className="text-pulse-x-subtitle-gray text-t6 font-glacial leading-relaxed max-w-2xl mx-auto">
+                        <h3 className="text-white text-t5 md:text-t4 font-bold font-glacial mb-3">
+                            Project leads
+                        </h3>
+
+                        <p className="text-pulse-x-subtitle-gray text-[0.75rem] md:text-t6 font-glacial leading-relaxed max-w-2xl mx-auto">
                             Your day-to-day partners, they coordinate every aspect of your project. From defining the strategy to
                             overseeing execution, they ensure everything runs smoothly while continuously optimizing performance to push
                             results further.
                         </p>
                     </div>
 
-                    {/* Production & post-production specialists */}
+                    {/* Production */}
                     <div className="text-center">
-                        <h3 className="text-white text-t4 font-bold font-glacial mb-3">Production & post-production specialists</h3>
-                        <p className="text-pulse-x-subtitle-gray text-t6 font-glacial leading-relaxed max-w-2xl mx-auto">
+                        <h3 className="text-white text-t5 md:text-t4 font-bold font-glacial mb-3">
+                            Production & post-production specialists
+                        </h3>
+
+                        <p className="text-pulse-x-subtitle-gray text-[0.75rem] md:text-t6 font-glacial leading-relaxed max-w-2xl mx-auto">
                             They bring your content to life. Directors, editors, and motion designers work together to deliver polished,
                             high-quality assets that align with your visual identity and meet platform standards.
                         </p>
@@ -51,23 +60,28 @@ const HeroSection = () => {
 
                     {/* Media experts */}
                     <div className="text-center">
-                        <h3 className="text-white text-t4 font-bold font-glacial mb-3">Media experts</h3>
-                        <p className="text-pulse-x-subtitle-gray text-t6 font-glacial leading-relaxed max-w-2xl mx-auto">
+                        <h3 className="text-white text-t5 md:text-t4 font-bold font-glacial mb-3">
+                            Media experts
+                        </h3>
+
+                        <p className="text-pulse-x-subtitle-gray text-[0.75rem] md:text-t6 font-glacial leading-relaxed max-w-2xl mx-auto">
                             Focused on results, they manage and optimize your campaigns with precision. Guided by your objectives, they
                             work to accelerate your growth, whether that means increasing awareness, engagement, or conversions.
                         </p>
                     </div>
+
                 </div>
 
                 {/* CTA Button */}
-                <div className="mt-14">
-                    <button className="border border-white text-white text-t6 font-glacial px-8 py-3 hover:bg-white hover:text-pulse-x-dark-red transition-colors duration-200">
+                <div className="mt-12 md:mt-16">
+                    <button className="border border-white text-white text-[0.75rem] md:text-t6 font-glacial px-6 md:px-8 py-3 hover:bg-white hover:text-pulse-x-dark-red transition-colors duration-200">
                         Get In Touch Now !
                     </button>
                 </div>
+
             </section>
         </div>
     );
 };
 
-export default HeroSection;
+export default About;

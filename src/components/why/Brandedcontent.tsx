@@ -12,14 +12,17 @@ interface BrandedContentSectionProps {
 }
 
 export default function BrandedContentSection({
-      title,
-      items,
-}: BrandedContentSectionProps) {
-
+                                                  title,
+                                                  items,
+                                              }: BrandedContentSectionProps) {
     return (
-        <section className="bg-black w-full px-16 py-16 flex flex-col items-center gap-10">
-            <h2 className="text-h7 font-bold text-white text-center">{title}</h2>
-            <div className="grid grid-cols-2 gap-6 w-full max-w-5xl">
+        <section className="bg-black w-full px-4 md:px-16 py-16 flex flex-col items-center gap-10">
+
+            <h2 className="text-h7 font-bold text-white text-center">
+                {title}
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 w-full max-w-5xl">
                 {items.map((item, index) => (
                     <BrandedContentCard
                         key={index}
@@ -29,6 +32,7 @@ export default function BrandedContentSection({
                     />
                 ))}
             </div>
+
         </section>
     );
 }

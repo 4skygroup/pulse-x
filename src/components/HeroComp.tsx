@@ -2,7 +2,7 @@ type HeroComProps = {
     titre: string;
     citation: string;
     tagline: string;
-    sousTitre: string;
+    sousTitre?: string;
     cta: string;
     description: string;
 };
@@ -35,7 +35,7 @@ export default function HeroComp({
 
                     {/* LEFT */}
                     <div className="flex flex-col">
-                        <h2 className="text-white leading-[0.85] font-semibold text-5xl sm:text-6xl md:text-7xl lg:text-h2">
+                        <h2 className="text-white leading-[0.85] text-5xl sm:text-6xl md:text-7xl lg:text-h2">
                             {titre}
                         </h2>
 
