@@ -1,5 +1,6 @@
 import HeroComp from "../components/HeroComp";
 import OurProcess from "../components/process/Process.tsx";
+import SocialMediaSection from "../components/SocialMediaSection.tsx";
 
 export default function BrandContent() {
 
@@ -27,6 +28,8 @@ export default function BrandContent() {
                     { step: 4, title: "Publication", description: "Optimized delivery for all your social media platforms.", variant: "gray" },
                 ]}
             />
+            <SocialMediaSection/>
+
         </>
 
     );
