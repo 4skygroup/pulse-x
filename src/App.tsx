@@ -5,7 +5,7 @@ import Services from "./components/services/Services.tsx";
 import About from "./components/About.tsx";
 import BrandContent from "./pages/BrandContent.tsx";
 import Contact from "./components/formulaire/Contact.tsx";
-import Footer from "./footer/Footer.tsx";
+import Footer from "./components/footer/Footer.tsx";
 
 function App() {
     return (
