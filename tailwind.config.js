@@ -4,14 +4,24 @@ module.exports = {
     content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
     theme: {
         extend: {
-
             animation: {
                 'breathe': 'breathe 4s ease-in-out infinite',
+                "slide-left": "slideLeft 12s linear infinite",
+                "slide-right": "slideRight 12s linear infinite",
             },
+
             keyframes: {
                 breathe: {
                     '0%, 100%': { transform: 'scale(1)' },
                     '50%': { transform: 'scale(2)' },
+                },
+                slideLeft: {
+                    "0%":   { transform: "translateX(0)" },
+                    "100%": { transform: "translateX(calc(-50% - 0.33rem))" },
+                },
+                slideRight: {
+                    "0%":   { transform: "translateX(calc(-50% - 0.33rem))" },
+                    "100%": { transform: "translateX(0)" },
                 },
             },
 
