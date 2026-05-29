@@ -25,7 +25,7 @@ export default function Navbar() {
                 <img
                     src="/logoPulseX.png"
                     alt="Pulse X"
-                    className="h-12"
+                    className="h-9"
                 />
             </NavLink>
 
