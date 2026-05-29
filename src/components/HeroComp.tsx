@@ -8,13 +8,14 @@ type HeroComProps = {
 };
 
 export default function HeroComp({
-                                     titre,
-                                     citation,
-                                     tagline,
-                                     sousTitre,
-                                     cta,
-                                     description,
-                                 }: HeroComProps) {
+    titre,
+    citation,
+    tagline,
+    sousTitre,
+    cta,
+    description,
+}: HeroComProps) {
+
     return (
         <section className="relative w-full min-h-screen overflow-hidden bg-black">
 

@@ -8,6 +8,7 @@ import Contact from "./components/formulaire/Contact.tsx";
 import Footer from "./components/footer/Footer.tsx";
 import SocialAds from "./pages/SocialAds.tsx";
 import ScrollToTop from "./components/ScrollToTop.tsx";
+import Influence from "./pages/Influence.tsx";
 
 function App() {
     return (
@@ -22,7 +23,7 @@ function App() {
 
                 <Route path="/brandcontent" element={<BrandContent />} />
                 <Route path="/socialads" element={<SocialAds />} />
-                {/*<Route path="/influence" element={<Influence />} />*/}
+                <Route path="/influence" element={<Influence />} />
             </Routes>
             <Footer />
         </>

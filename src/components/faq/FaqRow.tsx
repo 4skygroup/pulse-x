@@ -1,5 +1,4 @@
-import {useState} from "react";
-import type {FAQItem} from "./FaqData.ts";
+import type { FAQItem } from "./FaqData.ts";
 
 const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
     <svg
@@ -21,22 +20,33 @@ const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
     </svg>
 );
 
-const FAQRow = ({ item }: { item: FAQItem }) => {
-    const [isOpen, setIsOpen] = useState(false);
+interface FAQRowProps {
+    item: FAQItem;
+    isOpen: boolean;
+    onToggle: () => void;
+}
+
+const FAQRow = ({
+    item,
+    isOpen,
+    onToggle,
+}: FAQRowProps) => {
 
     return (
         <div className="border-b border-[#2A2A2A]">
+
             <button
-                onClick={() => setIsOpen(!isOpen)}
+                onClick={onToggle}
                 className="w-full flex items-center justify-between py-5 px-0 text-left group"
                 aria-expanded={isOpen}
             >
                 <span
-                    className="font-glacial text-t5 text-white transition-colors duration-200 group-hover:text-pulse-x-red pr-4"
+                    className="font-glacial text-t5 transition-colors duration-200 group-hover:text-pulse-x-red pr-4"
                     style={{ color: isOpen ? "#F23333" : "#E5E5E5" }}
                 >
                     {item.question}
                 </span>
+
                 <ChevronIcon isOpen={isOpen} />
             </button>
 
@@ -51,6 +61,7 @@ const FAQRow = ({ item }: { item: FAQItem }) => {
                     {item.answer}
                 </p>
             </div>
+
         </div>
     );
 };
