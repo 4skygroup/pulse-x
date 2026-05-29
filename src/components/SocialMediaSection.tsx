@@ -46,7 +46,7 @@ const SocialMediaSection: React.FC = () => {
                 </div>
 
                 {/* Grille d'images 3×2 */}
-                <div className="flex-1 grid grid-cols-3 grid-rows-2 gap-2">
+                <div className="flex-1 grid grid-cols-2 md:grid-cols-3 grid-rows-3 md:grid-rows-2 gap-2">
                     {/* Rangée 1 */}
                     <img src="/img1.png" className="aspect-[3/4] w-full" alt="img1"/>
                     <img src="/img2.png" className="aspect-[3/4] w-full" alt="img2"/>

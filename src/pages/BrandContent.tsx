@@ -1,6 +1,7 @@
 import HeroComp from "../components/HeroComp";
 import OurProcess from "../components/process/Process.tsx";
 import SocialMediaSection from "../components/SocialMediaSection.tsx";
+import BrandedContentSection, {type BrandedContentItem} from "../components/why/Brandedcontent.tsx";
 
 export default function BrandContent() {
 
@@ -14,6 +15,29 @@ export default function BrandContent() {
             "We help brands create impactful visual content designed to capture attention and strengthen their online presence. From creative concepts to polished execution, every project is built to reflect your identity and engage your audience. Whether through photography, short-form videos, or campaign visuals, we focus on creating content that feels authentic, modern, and memorable.",
 
     };
+
+    const brandedContentItems: BrandedContentItem[] = [
+        {
+            title: "Increase visibility",
+            description: "Professional content helps your brand stand out and attract more attention online.",
+            variant: "red",
+        },
+        {
+            title: "Build stronger engagement",
+            description: "Authentic visuals encourage interaction and create a deeper connection with your audience.",
+            variant: "gray",
+        },
+        {
+            title: "Create brand consistency",
+            description: "Consistent content reinforces your identity across every platform.",
+            variant: "gray",
+        },
+        {
+            title: "Boost brand credibility",
+            description: "High-quality visuals improve trust and make your business appear more professional.",
+            variant: "red",
+        },
+    ];
 
     return (
         <>
@@ -29,7 +53,7 @@ export default function BrandContent() {
                 ]}
             />
             <SocialMediaSection/>
-
+            <BrandedContentSection title="Why invest in branded content?" items={brandedContentItems} />
         </>
 
     );
