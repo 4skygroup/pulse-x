@@ -1,5 +1,5 @@
 import HeroComp from "../components/HeroComp";
-import OurProcess from "../components/process/Process.tsx";
+import OurProcess from "../components/our/Process.tsx";
 import SocialMediaSection from "../components/SocialMediaSection.tsx";
 import BrandedContentSection, {type BrandedContentItem} from "../components/why/Brandedcontent.tsx";
 
