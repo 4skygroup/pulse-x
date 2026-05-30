@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 type HeroComProps = {
     titre: string;
     citation: string;
@@ -55,9 +57,12 @@ export default function HeroComp({
                             {sousTitre}
                         </p>
 
-                        <button className="mt-8 w-fit rounded-full border border-white px-6 py-3 sm:px-8 sm:py-4 text-white text-base sm:text-lg transition-all duration-300 hover:bg-white hover:text-black">
+                        <Link
+                            to="/contact"
+                            className="mt-8 w-fit rounded-full border border-white px-6 py-3 sm:px-8 sm:py-4 text-white text-base sm:text-lg transition-all duration-300 hover:bg-white hover:text-black"
+                        >
                             {cta}
-                        </button>
+                        </Link>
                     </div>
                 </div>
 

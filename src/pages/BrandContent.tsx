@@ -29,7 +29,7 @@ export default function BrandContent() {
         },
         {
             title: "Create brand consistency",
-            description: "Consistent content reinforces your identity across every platform.",
+            description: "Consistent content reinforces your identity across every platform and builds lasting audience trust.",
             variant: "gray",
         },
         {
