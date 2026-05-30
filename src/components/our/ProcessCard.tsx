@@ -15,13 +15,14 @@ export default function ProcessCard({
     return (
         <div
             className={`
-                max-w-[250px] relative flex flex-col gap-4 rounded-2xl p-6 min-h-[150px] transition-transform duration-300 hover:-translate-y-1
+                max-w-[350px] min-h-[200px] relative flex flex-col gap-4 rounded-2xl p-8 md:p-12 transition-transform duration-300 hover:-translate-y-1
+
                 ${isRed ? "bg-pulse-x-card-red text-white" : "bg-pulse-x-card-gray text-black"}
             `}
         >
             <p
                 className={`
-                    font-glacial font-bold text-t5 leading-tight
+                    font-glacial font-bold text-t4 md:text-t3 leading-tight
                     ${isRed ? "text-white" : "text-black"}
                 `}
             >
@@ -30,7 +31,7 @@ export default function ProcessCard({
 
             <p
                 className={`
-                    font-glacial text-t5 leading-snug
+                    font-glacial text-t5 md:text-t4 leading-snug
                     ${isRed ? "text-white/90" : "text-black/80"}
                 `}
             >

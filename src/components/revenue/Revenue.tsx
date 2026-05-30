@@ -32,7 +32,7 @@ export default function Revenue() {
                 {/* Top */}
                 <div className="mb-20">
 
-                    <h2 className="text-4xl md:text-5xl font-bold text-center mb-10">
+                    <h2 className="text-h6 md:text-5xl font-bold text-center mb-10">
                         We turn attention into revenue
                     </h2>
 

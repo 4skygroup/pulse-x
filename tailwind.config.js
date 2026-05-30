@@ -58,6 +58,8 @@ module.exports = {
             },
             fontSize: {
                 // Titles
+
+                // titre : text-t3 md:text-h6
                 h1: "8rem",
                 h2: "6rem",
                 h3: "5rem",

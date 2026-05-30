@@ -64,7 +64,7 @@ export default function Services() {
             <div className="relative max-w-5xl mx-auto">
 
                 {/* Title */}
-                <h2 className="text-center text-white text-h7 font-bold uppercase mb-14">
+                <h2 className="text-center text-white text-t3 md:text-h6 font-bold uppercase mb-14">
                     Our Services
                 </h2>
 
