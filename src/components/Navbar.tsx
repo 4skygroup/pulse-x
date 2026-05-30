@@ -25,7 +25,6 @@ const navItems: NavItem[] = [
         ],
     },
     { label: "About",   path: "/about" },
-    { label: "Careers", path: "/careers" },
     { label: "Contact", path: "/contact" },
 ];
 

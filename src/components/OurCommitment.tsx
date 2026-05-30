@@ -7,11 +7,11 @@ const OurCommitment = () => {
                 {/* Left: Text content */}
                 <div className="flex-1 text-center md:text-left">
 
-                    <h2 className="font-glacial font-bold text-h7 text-white mb-6">
+                    <h2 className="font-glacial font-bold text-t3 md:text-h6 text-white mb-6">
                         Our commitment
                     </h2>
 
-                    <p className="font-glacial text-t6 md:text-t5 text-pulse-x-subtitle-gray leading-relaxed mb-4">
+                    <p className="font-glacial text-t5 md:text-t4 text-pulse-x-subtitle-gray leading-relaxed mb-4">
                         We create high-impact advertising content designed to generate attention,
                         increase engagement, and deliver measurable growth for your business.
                         From strategic planning to creative production and campaign optimization,
@@ -19,7 +19,7 @@ const OurCommitment = () => {
                         platforms.
                     </p>
 
-                    <p className="font-glacial text-t6 md:text-t5 text-pulse-x-subtitle-gray leading-relaxed">
+                    <p className="font-glacial text-t5 md:text-t4 text-pulse-x-subtitle-gray leading-relaxed">
                         Our objective is to help your brand connect with the right audience,
                         strengthen visibility, and achieve long-term marketing success through
                         effective paid advertising strategies.

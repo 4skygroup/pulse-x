@@ -152,11 +152,7 @@ const SocialMediaSection: React.FC = () => {
     return (
         <section className="bg-black px-8 py-10 font-glacial">
             <h2
-                className="text-center text-pulse-x-red tracking-widest uppercase mb-8"
-                style={{
-                    fontSize: "1rem",
-                    letterSpacing: "0.25em",
-                }}
+                className="text-center text-t3 md:text-h6 text-pulse-x-red tracking-widest uppercase mb-8"
             >
                 Building your presence on social media
             </h2>

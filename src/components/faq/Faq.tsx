@@ -10,7 +10,7 @@ const FAQ = () => {
     return (
         <section className="w-full bg-black flex flex-col items-center px-6 py-16">
 
-            <h2 className="font-glacial text-h7 font-bold text-white mb-12 tracking-widest uppercase">
+            <h2 className="font-glacial text-t3 md:text-h6 font-bold text-white mb-12 tracking-widest uppercase">
                 FAQ
             </h2>
 

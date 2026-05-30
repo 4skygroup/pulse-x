@@ -17,9 +17,9 @@ export default function Contact() {
                 <div className="max-w-5xl w-full mx-auto bg-white/40 backdrop-blur-md rounded-[2.5rem] p-8 md:p-14 shadow-sm border border-white/20 mt-6">
 
                     {/* Title */}
-                    <h1 className="text-3xl md:text-4xl text-center uppercase tracking-wide mb-2 text-white drop-shadow-sm">
+                    <h2 className="text-t3 md:text-h6 text-center uppercase tracking-wide mb-2 text-white drop-shadow-sm">
                         Contact us
-                    </h1>
+                    </h2>
 
                     <p className="text-center text-white font-medium tracking-wide text-lg md:text-xl mb-12">
                         Let&apos;s start your strategy !
