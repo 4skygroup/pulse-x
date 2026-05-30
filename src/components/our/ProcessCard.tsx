@@ -30,7 +30,7 @@ export default function ProcessCard({
 
             <p
                 className={`
-                    font-glacial text-t6 leading-snug
+                    font-glacial text-t5 leading-snug
                     ${isRed ? "text-white/90" : "text-black/80"}
                 `}
             >

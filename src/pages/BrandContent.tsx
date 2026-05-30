@@ -1,5 +1,5 @@
 import HeroComp from "../components/HeroComp";
-import OurProcess from "../components/process/Process.tsx";
+import OurProcess from "../components/our/Process.tsx";
 import SocialMediaSection from "../components/SocialMediaSection.tsx";
 import BrandedContentSection, {type BrandedContentItem} from "../components/why/Brandedcontent.tsx";
 
@@ -29,7 +29,7 @@ export default function BrandContent() {
         },
         {
             title: "Create brand consistency",
-            description: "Consistent content reinforces your identity across every platform.",
+            description: "Consistent content reinforces your identity across every platform and builds lasting audience trust.",
             variant: "gray",
         },
         {

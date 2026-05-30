@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function Hero() {
     return (
         <section className="relative h-screen overflow-hidden bg-black text-white">
@@ -37,9 +39,12 @@ export default function Hero() {
                 </p>
 
                 {/* Button */}
-                <button className="px-8 py-3 border border-white rounded-full text-sm md:text-base font-medium transition-all duration-300 hover:bg-white hover:text-black">
+                <Link
+                    to="/contact"
+                    className="px-8 py-3 border border-white rounded-full text-sm md:text-base font-medium transition-all duration-300 hover:bg-white hover:text-black"
+                >
                     Start
-                </button>
+                </Link>
 
             </div>
         </section>

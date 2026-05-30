@@ -6,10 +6,14 @@ import About from "./components/About.tsx";
 import BrandContent from "./pages/BrandContent.tsx";
 import Contact from "./components/formulaire/Contact.tsx";
 import Footer from "./components/footer/Footer.tsx";
+import SocialAds from "./pages/SocialAds.tsx";
+import ScrollToTop from "./components/ScrollToTop.tsx";
+import Influence from "./pages/Influence.tsx";
 
 function App() {
     return (
         <>
+            <ScrollToTop />
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -18,8 +22,8 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
 
                 <Route path="/brandcontent" element={<BrandContent />} />
-                {/*<Route path="/socialads" element={<SocialAds />} />*/}
-                {/*<Route path="/influence" element={<Influence />} />*/}
+                <Route path="/socialads" element={<SocialAds />} />
+                <Route path="/influence" element={<Influence />} />
             </Routes>
             <Footer />
         </>
