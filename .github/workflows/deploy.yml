@@ -12,19 +12,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: 1. Préparer Node.js
+      - name: 1. Preparer Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: 2. Installer, Vérifier (Audit/Lint) et Construire
+      - name: 2. Installer, Verifier (Audit/Lint) et Construire
         run: |
           npm install
           npm audit --audit-level=high
           npm run lint --if-present
           npm run build
 
-      - name: 3. Préparer le dossier sur le serveur
+      - name: 3. Configurer Nginx et SSL
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
@@ -32,10 +32,76 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             sudo mkdir -p /var/www/pulsexagency.com
+
+            if [ ! -d /etc/letsencrypt/live/pulsexagency.com ]; then
+              sudo tee /etc/nginx/sites-available/pulsexagency.com > /dev/null <<'TMPEOF'
+            server {
+                server_name pulsexagency.com www.pulsexagency.com;
+                root /var/www/pulsexagency.com;
+                listen 80;
+                listen [::]:80;
+            }
+            TMPEOF
+              if [ ! -L /etc/nginx/sites-enabled/pulsexagency.com ]; then
+                sudo ln -s /etc/nginx/sites-available/pulsexagency.com /etc/nginx/sites-enabled/pulsexagency.com
+              fi
+              sudo nginx -t && sudo systemctl reload nginx
+              sudo certbot certonly --nginx -d pulsexagency.com -d www.pulsexagency.com \
+                --non-interactive --agree-tos -m ${{ secrets.CERTBOT_EMAIL }}
+            fi
+
+            sudo tee /etc/nginx/sites-available/pulsexagency.com > /dev/null <<'NGINXEOF'
+            server {
+                server_name pulsexagency.com www.pulsexagency.com;
+                limit_req zone=mylimit burst=20 nodelay;
+                include conf.d/security-headers.conf;
+
+                root /var/www/pulsexagency.com;
+                index index.html;
+
+                location / {
+                    try_files $uri $uri/ /index.html;
+                }
+
+                listen [::]:443 ssl;
+                listen 443 ssl;
+                http2 on;
+                ssl_certificate /etc/letsencrypt/live/pulsexagency.com/fullchain.pem;
+                ssl_certificate_key /etc/letsencrypt/live/pulsexagency.com/privkey.pem;
+                include /etc/letsencrypt/options-ssl-nginx.conf;
+                ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+            }
+            server {
+                if ($host = www.pulsexagency.com) {
+                    return 301 https://$host$request_uri;
+                }
+                if ($host = pulsexagency.com) {
+                    return 301 https://$host$request_uri;
+                }
+                listen 80;
+                listen [::]:80;
+                server_name pulsexagency.com www.pulsexagency.com;
+                return 404;
+            }
+            NGINXEOF
+
+            if [ ! -L /etc/nginx/sites-enabled/pulsexagency.com ]; then
+              sudo ln -s /etc/nginx/sites-available/pulsexagency.com /etc/nginx/sites-enabled/pulsexagency.com
+            fi
+
+            sudo nginx -t && sudo systemctl reload nginx
+
+      - name: 4. Preparer le dossier sur le serveur
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
             sudo chown -R ubuntu:ubuntu /var/www/pulsexagency.com
             sudo rm -rf /var/www/pulsexagency.com/*
 
-      - name: 4. Envoyer les fichiers prêts au serveur
+      - name: 5. Envoyer les fichiers prets au serveur
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
@@ -45,7 +111,7 @@ jobs:
           target: "/var/www/pulsexagency.com/"
           strip_components: 1
 
-      - name: 5. Sécuriser les droits pour Nginx
+      - name: 6. Securiser les droits et recharger Nginx
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
@@ -53,3 +119,4 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             sudo chown -R www-data:www-data /var/www/pulsexagency.com/
+            sudo nginx -t && sudo systemctl reload nginx
