@@ -34,7 +34,7 @@ jobs:
             DOMAIN="pulsexagency.com"
             sudo mkdir -p /var/www/$DOMAIN
 
-            if [ ! -f /etc/nginx/sites-available/$DOMAIN ]; then
+            if [ ! -d /etc/letsencrypt/live/$DOMAIN ]; then
               sudo tee /etc/nginx/sites-available/$DOMAIN > /dev/null <<'NGINXEOF'
             server {
                 server_name pulsexagency.com www.pulsexagency.com;
@@ -52,15 +52,13 @@ jobs:
                 listen [::]:80;
             }
             NGINXEOF
-            fi
-
-            if [ ! -L /etc/nginx/sites-enabled/$DOMAIN ]; then
-              sudo ln -s /etc/nginx/sites-available/$DOMAIN /etc/nginx/sites-enabled/$DOMAIN
-            fi
-
-            if [ ! -d /etc/letsencrypt/live/$DOMAIN ]; then
+              sudo ln -sf /etc/nginx/sites-available/$DOMAIN /etc/nginx/sites-enabled/$DOMAIN
               sudo certbot --nginx -d $DOMAIN -d www.$DOMAIN \
                 --non-interactive --agree-tos -m ${{ secrets.CERTBOT_EMAIL }}
+            else
+              if [ ! -L /etc/nginx/sites-enabled/$DOMAIN ]; then
+                sudo ln -s /etc/nginx/sites-available/$DOMAIN /etc/nginx/sites-enabled/$DOMAIN
+              fi
             fi
 
             sudo nginx -t && sudo systemctl reload nginx
