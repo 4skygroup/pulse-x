@@ -19,8 +19,7 @@ export default function HeroComp({
 }: HeroComProps) {
 
     return (
-        // <section className="relative w-full min-h-screen overflow-hidden bg-black">
-        <section className="relative min-h-[90vh] overflow-hidden bg-black text-white">
+        <section className="relative w-full min-h-screen overflow-hidden bg-black">
 
         {/* Gradient */}
             <div className="absolute inset-0 bg-linear-to-b from-black via-black via-45% to-red-600" />
@@ -32,7 +31,7 @@ export default function HeroComp({
             <div className="absolute inset-0 bg-black/20" />
 
             {/* Content */}
-            <div className="relative z-10 flex min-h-[80vh] flex-col items-center justify-center px-6 text-center">
+            <div className="relative z-10 flex min-h-[80vh] flex-col items-center justify-center px-6">
 
                 {/* TOP */}
                 <div className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] items-center gap-14 lg:gap-16 pt-28 lg:pt-32">

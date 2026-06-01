@@ -2,8 +2,7 @@ import {Link} from "react-router-dom";
 
 export default function Hero() {
     return (
-        // <section className="relative h-screen overflow-hidden bg-black text-white">
-        <section className="relative min-h-[80vh] overflow-hidden bg-black text-white">
+        <section className="relative h-screen overflow-hidden bg-black text-white">
 
             {/* Gradient */}
             <div className="absolute inset-0 bg-linear-to-b from-black via-black via-45% to-red-600" />
@@ -12,7 +11,7 @@ export default function Hero() {
             <div className="absolute -bottom-62.5 left-1/2 -translate-x-1/2 w-300 h-125 bg-pulse-x-red blur-3xl opacity-80 rounded-full" />
 
             {/* Content */}
-            <div className="relative z-10 flex min-h-[80vh] flex-col items-center justify-center px-6 text-center">
+            <div className="relative z-10 flex min-h-[100vh] flex-col items-center justify-center px-6 text-center">
 
                 {/* Logos */}
                 <div className="flex items-center gap-10 mb-8">

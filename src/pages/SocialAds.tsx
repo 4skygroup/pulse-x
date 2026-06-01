@@ -53,7 +53,7 @@ export default function SocialAds() {
             />
             <OurCommitment />
 
-            <BrandedContentSection title="Why invest in branded content?" items={brandedContentItems} />
+            <BrandedContentSection title="Why invest in social media ads??" items={brandedContentItems} />
         </>
     );
 }
