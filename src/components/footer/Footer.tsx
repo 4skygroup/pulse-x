@@ -30,8 +30,6 @@ const FooterLink = ({
 );
 
 const Footer = () => {
-    const entityName = "Pulse X";
-
     return (
         <footer
             className="relative w-full overflow-hidden"
