@@ -1,0 +1,21 @@
+{
+  "name": "Pulse X Agency",
+  "short_name": "Pulse X",
+  "description": "Social Creative Agency – Brand Content, Social Ads & Influencer Marketing",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#E32323",
+  "icons": [
+    {
+      "src": "/logoPulseX.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logoPulseX.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

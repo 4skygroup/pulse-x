@@ -47,7 +47,7 @@ const Footer = () => {
                 {/* Logo */}
                 <div className="flex justify-center mb-10">
                     <a href="/" aria-label="Pulse X – Accueil">
-                        <img className="h-12" src="/logoPulseX.png" alt="Pulse X" />
+                        <img className="h-12" src="/logoPulseX.png" alt="Pulse X" loading="lazy" />
                     </a>
                 </div>
 
@@ -101,12 +101,14 @@ const Footer = () => {
           <img
             src="/visuance.png"
             alt="Visuance logo"
+            loading="lazy"
             className="h-4"
           />
           <span>&</span>
           <img
             src="/play-to-sky.png"
             alt="Play To Sky logo"
+            loading="lazy"
             className="h-6"
           />
         </div>

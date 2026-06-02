@@ -2,6 +2,7 @@ import HeroComp from "../components/HeroComp.tsx";
 import OurProcess from "../components/our/Process.tsx";
 import BrandedContentSection, {type BrandedContentItem} from "../components/why/Brandedcontent.tsx";
 import OurCommitment from "../components/OurCommitment.tsx";
+import Seo from "../components/Seo.tsx";
 
 export default function SocialAds() {
 
@@ -40,6 +41,11 @@ export default function SocialAds() {
 
     return (
         <>
+            <Seo
+                title="Social Ads | Pulse X Agency"
+                description="Pulse X designs and manages high-performance social advertising campaigns across Meta, TikTok, and Instagram. Reach the right audience, generate leads, and maximize conversions."
+                path="/socialads"
+            />
             <HeroComp {...heroContent} />
             <OurProcess
                 title="OUR STRATEGY"

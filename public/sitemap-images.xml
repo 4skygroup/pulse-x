@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://pulsexagency.com/</loc>
+    <image:image>
+      <image:loc>https://pulsexagency.com/logoPulseX.png</image:loc>
+      <image:title>Pulse X Agency – Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://pulsexagency.com/tiktok.png</image:loc>
+      <image:title>TikTok – Partenaire Pulse X</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://pulsexagency.com/meta.png</image:loc>
+      <image:title>Meta – Partenaire Pulse X</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://pulsexagency.com/brandcontent</loc>
+    <image:image>
+      <image:loc>https://pulsexagency.com/img1.png</image:loc>
+      <image:title>Brand Content – Réalisation Pulse X 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://pulsexagency.com/img2.png</image:loc>
+      <image:title>Brand Content – Réalisation Pulse X 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://pulsexagency.com/img3.png</image:loc>
+      <image:title>Brand Content – Réalisation Pulse X 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://pulsexagency.com/img4.png</image:loc>
+      <image:title>Brand Content – Réalisation Pulse X 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://pulsexagency.com/img5.png</image:loc>
+      <image:title>Brand Content – Réalisation Pulse X 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://pulsexagency.com/img6.png</image:loc>
+      <image:title>Brand Content – Réalisation Pulse X 6</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://pulsexagency.com/socialads</loc>
+    <image:image>
+      <image:loc>https://pulsexagency.com/img-reseau.png</image:loc>
+      <image:title>Social Ads – Plateformes réseaux sociaux</image:title>
+    </image:image>
+  </url>
+
+</urlset>

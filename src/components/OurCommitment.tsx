@@ -33,6 +33,7 @@ const OurCommitment = () => {
                         <img
                             src="/img-reseau.png"
                             alt="Social media platforms"
+                            loading="lazy"
                             className="w-full h-full object-contain"
                         />
                     </div>

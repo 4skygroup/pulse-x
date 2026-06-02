@@ -2,6 +2,7 @@ import HeroComp from "../components/HeroComp";
 import OurProcess from "../components/our/Process.tsx";
 import SocialMediaSection from "../components/SocialMediaSection.tsx";
 import BrandedContentSection, {type BrandedContentItem} from "../components/why/Brandedcontent.tsx";
+import Seo from "../components/Seo.tsx";
 
 export default function BrandContent() {
 
@@ -41,6 +42,11 @@ export default function BrandContent() {
 
     return (
         <>
+            <Seo
+                title="Brand Content | Pulse X Agency"
+                description="Pulse X creates impactful visual content for brands — from concept to execution. Photography, short-form videos, and campaign visuals crafted to reflect your identity and engage your audience."
+                path="/brandcontent"
+            />
             <HeroComp {...heroContent} />
             <OurProcess
                 title="Our Process"

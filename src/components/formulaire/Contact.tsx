@@ -1,7 +1,14 @@
 import ContactForm from "./ContactForm.tsx";
+import Seo from "../Seo.tsx";
 
 export default function Contact() {
     return (
+        <>
+        <Seo
+            title="Contact | Pulse X Agency"
+            description="Ready to grow your brand? Contact Pulse X to launch your social media strategy. Our team of experts is here to help you boost your online presence."
+            path="/contact"
+        />
         <div className="relative w-full min-h-[calc(90vh-100px)] flex items-center justify-center overflow-hidden">
 
             {/* Gradient */}
@@ -33,6 +40,7 @@ export default function Contact() {
                             <img
                                 src="/logoPulseX.png"
                                 alt="Logo Pulse X Management"
+                                loading="lazy"
                                 className="w-full max-w-[280px] md:max-w-full h-auto object-contain drop-shadow-sm"
                             />
                         </div>
@@ -43,5 +51,6 @@ export default function Contact() {
                 </div>
             </div>
         </div>
+        </>
     );
 }

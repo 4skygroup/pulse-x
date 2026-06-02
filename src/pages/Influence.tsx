@@ -1,6 +1,7 @@
 import HeroComp from "../components/HeroComp.tsx";
 import OurProcess from "../components/our/Process.tsx";
 import BrandedContentSection, {type BrandedContentItem} from "../components/why/Brandedcontent.tsx";
+import Seo from "../components/Seo.tsx";
 
 export default function Influence() {
 
@@ -39,6 +40,11 @@ export default function Influence() {
 
     return (
         <>
+            <Seo
+                title="Influencer Marketing | Pulse X Agency"
+                description="Pulse X connects brands with the right creators for authentic influencer campaigns. Strategic matching, campaign management, and performance optimization to grow your brand organically."
+                path="/influence"
+            />
             <HeroComp {...heroContent} />
             <OurProcess
                 title="OUR STRATEGY"

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pulsexagency.com/sitemap.xml
+Sitemap: https://pulsexagency.com/sitemap-images.xml

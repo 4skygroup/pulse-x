@@ -1,6 +1,13 @@
+import Seo from "./Seo.tsx";
+
 const About = () => {
     return (
         <div>
+            <Seo
+                title="About | Pulse X Agency – Social Creative Agency"
+                description="Learn about Pulse X, a social creative agency bringing together project leads, production specialists, and media experts to deliver high-quality digital content and campaign management."
+                path="/about"
+            />
             <section className="w-full bg-white">
 
                 {/* Image */}
@@ -8,6 +15,7 @@ const About = () => {
                     <img
                         src="/logoPulseX.png"
                         alt="Hero"
+                        loading="lazy"
                         className="w-full max-w-6xl h-[260px] md:h-[500px] object-contain rounded-xl"
                     />
                 </div>
