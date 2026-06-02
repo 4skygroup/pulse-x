@@ -2,7 +2,7 @@ import ContactForm from "./ContactForm.tsx";
 
 export default function Contact() {
     return (
-        <div className="relative w-full min-h-screen overflow-hidden">
+        <div className="relative w-full min-h-[calc(90vh-100px)] flex items-center justify-center overflow-hidden">
 
             {/* Gradient */}
             <div className="absolute inset-0 bg-linear-to-b from-black via-black via-45% to-red-600" />
@@ -14,14 +14,14 @@ export default function Contact() {
             <div className="relative z-10 flex flex-col items-center px-4 py-12 md:py-20 text-black">
 
                 {/* Cadre principal */}
-                <div className="max-w-5xl w-full mx-auto bg-white/40 backdrop-blur-md rounded-[2.5rem] p-8 md:p-14 shadow-sm border border-white/20 mt-6">
+                <div className="max-w-4xl w-full mx-auto bg-white/10 backdrop-blur-md rounded-[2.5rem] p-8 md:p-14 shadow-sm border border-white/20 mt-6">
 
                     {/* Title */}
-                    <h2 className="text-t3 md:text-h6 text-center uppercase tracking-wide mb-2 text-white drop-shadow-sm">
+                    {/* <h2 className="text-t3 md:text-h6 text-center uppercase tracking-wide mb-2 text-white drop-shadow-sm">
                         Contact us
-                    </h2>
+                    </h2> */}
 
-                    <p className="text-center text-white font-medium tracking-wide text-lg md:text-xl mb-12">
+                    <p className="text-2xl md:text-3xl text-right mb-2 tracking-wide text-white drop-shadow-sm">
                         Let&apos;s start your strategy !
                     </p>
 
