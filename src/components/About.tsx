@@ -1,6 +1,8 @@
 import Seo from "./Seo.tsx";
+import {useNavigate} from "react-router-dom";
 
 const About = () => {
+    const navigate = useNavigate()
     return (
         <div>
             <Seo
@@ -82,7 +84,10 @@ const About = () => {
 
                 {/* CTA Button */}
                 <div className="mt-12 md:mt-16">
-                    <button className="border border-white text-white text-[0.75rem] md:text-t6 font-glacial px-6 md:px-8 py-3 hover:bg-white hover:text-pulse-x-dark-red transition-colors duration-200">
+                    <button
+                        onClick={() => navigate("/contact")}
+                        className="border border-white text-white text-[0.75rem] md:text-t6 font-glacial px-6 md:px-8 py-3 hover:bg-white hover:text-pulse-x-dark-red transition-colors duration-200"
+                    >
                         Get In Touch Now !
                     </button>
                 </div>

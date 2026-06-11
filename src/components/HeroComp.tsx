@@ -34,7 +34,7 @@ export default function HeroComp({
             <div className="relative z-10 flex min-h-[80vh] flex-col items-center justify-center px-6">
 
                 {/* TOP */}
-                <div className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] items-center gap-14 lg:gap-16 pt-28 lg:pt-32">
+                <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] items-center gap-14 lg:gap-16 pt-28 lg:pt-32">
 
                     {/* LEFT */}
                     <div className="flex flex-col">
