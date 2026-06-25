@@ -29,7 +29,7 @@ export default function Hero() {
                 </div>
 
                 {/* Title */}
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+                <h1 className="text-4xl md:text-7xl font-bold mb-6 tracking-tight">
                     Social Creative Agency
                 </h1>
 

@@ -97,24 +97,39 @@ const Footer = () => {
                     </FooterColumn>
                 </div>
 
-        {/* COPYRIGHT */}
-        <div className="mt-8 flex justify-center items-center gap-3 text-t3 font-regular text-white/60 tracking-normal">
-          <span>created by</span>
-          <img
-            src="/visuance.png"
-            alt="Visuance logo"
-            loading="lazy"
-            className="h-4"
-          />
-          <span>&</span>
-          <img
-            src="/play-to-sky.png"
-            alt="Play To Sky logo"
-            loading="lazy"
-            className="h-6"
-          />
+                {/* COPYRIGHT */}
+                <div className="mt-8 flex items-center justify-center gap-3 text-t3 font-regular tracking-normal text-white/60">
+                    <span>created by</span>
+
+                    <a
+                        href="https://visuanceagency.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="/visuance.png"
+                            alt="Visuance logo"
+                            loading="lazy"
+                            className="h-4 cursor-pointer"
+                        />
+                    </a>
+
+                    <span>&</span>
+
+                    <a
+                        href="https://www.playtosky.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="/play-to-sky.png"
+                            alt="Play To Sky logo"
+                            loading="lazy"
+                            className="h-6 cursor-pointer"
+                        />
+                    </a>
+                </div>
         </div>
-      </div>
     </footer>
     );
 };

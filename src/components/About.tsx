@@ -13,13 +13,14 @@ const About = () => {
             <section className="w-full bg-white">
 
                 {/* Image */}
-                <div className="w-full bg-white flex items-center justify-center px-4 md:px-12 lg:px-20 pt-6 md:pt-10">
-                    <img
-                        src="/logoPulseX.png"
-                        alt="Hero"
-                        loading="lazy"
-                        className="w-full max-w-6xl h-[260px] md:h-[500px] object-contain rounded-xl"
-                    />
+                <div className="w-full bg-white px-4 md:px-8 lg:px-12 mt-10 md:pt-10">
+                    <div className="max-w-[1400px] mx-auto">
+                        <img
+                            src="/aboutus.png"
+                            alt="Hero"
+                            loading="lazy"
+                            className="w-full h-[250px] md:h-[400px] lg:h-[600px] object-cover rounded-xl"                        />
+                    </div>
                 </div>
 
                 {/* Red banner */}
