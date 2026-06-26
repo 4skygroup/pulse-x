@@ -1,6 +1,6 @@
 export const politique = [
-    { label: "Mentions légales", href: "/mentions-legales" },
-    { label: "Confidentialité", href: "/confidentialite" },
+    { label: "Legal Notice", href: "/mentions-legales" },
+    { label: "Privacy", href: "/confidentialite" },
 ];
 
 export const services = [

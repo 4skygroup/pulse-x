@@ -9,7 +9,7 @@ const cards = [
     {
         icon: <Phone className="w-5 h-5 text-white" />,
         label: "Téléphone",
-        value: "+33 1 23 45 67 89",
+        value: "01 30 29 30 25",
     },
     {
         icon: <Clock className="w-5 h-5 text-white" />,

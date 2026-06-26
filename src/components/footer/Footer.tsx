@@ -55,7 +55,7 @@ const Footer = () => {
 
                 {/* Columns */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
-                    <FooterColumn title="Politique">
+                    <FooterColumn title="Politics">
                         {politique.map((link) => (
                             <FooterLink key={link.href} href={link.href}>
                                 {link.label}
@@ -71,7 +71,7 @@ const Footer = () => {
                         ))}
                     </FooterColumn>
 
-                    <FooterColumn title="Nos entités">
+                    <FooterColumn title="Our entities">
                         {entites.map((link) => (
                             <FooterLink key={link.href} href={link.href}>
                                 {link.label}
@@ -79,7 +79,7 @@ const Footer = () => {
                         ))}
                     </FooterColumn>
 
-                    <FooterColumn title="Nos réseaux">
+                    <FooterColumn title="Our networks">
                         <div className="flex flex-wrap gap-3 mt-1">
                             {social.map((s) => (
                                 <a

@@ -1,7 +1,7 @@
 import { Phone, Mail } from "lucide-react";
 import { useState } from "react";
 
-const FORMSPREE = "contact@seofyagency.com";
+const FORMSPREE = "https://formspree.io/f/xvzjakbb";
 
 type Tab = "callback" | "message";
 

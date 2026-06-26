@@ -34,7 +34,7 @@ export default function Hero() {
                 </h1>
 
                 {/* Subtitle */}
-                <p className="text-gray-300 text-lg md:text-xl max-w-2xl mb-10">
+                <p className="text-gray-300 text-t5 md:text-xl max-w-2xl mb-10">
                     Social Agency - Media and Community Management
                 </p>
 

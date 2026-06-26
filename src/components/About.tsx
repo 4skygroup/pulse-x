@@ -10,10 +10,10 @@ const About = () => {
                 description="Learn about Pulse X, a social creative agency bringing together project leads, production specialists, and media experts to deliver high-quality digital content and campaign management."
                 path="/about"
             />
-            <section className="w-full bg-white">
+            <section className="w-full bg-black">
 
                 {/* Image */}
-                <div className="w-full bg-white px-4 md:px-8 lg:px-12 mt-10 md:pt-10">
+                <div className="w-full px-4 md:px-8 lg:px-12 mt-10 md:pt-10">
                     <div className="max-w-[1400px] mx-auto">
                         <img
                             src="/aboutus.png"
