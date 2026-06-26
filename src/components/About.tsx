@@ -19,7 +19,7 @@ const About = () => {
                             src="/aboutus.png"
                             alt="Hero"
                             loading="lazy"
-                            className="w-full h-[250px] md:h-[400px] lg:h-[600px] object-cover rounded-xl"                        />
+                            className="w-full h-[250px] md:h-[400px] lg:h-[610px] object-cover rounded-xl"                        />
                     </div>
                 </div>
 
