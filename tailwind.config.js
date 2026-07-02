@@ -49,6 +49,7 @@ module.exports = {
 
         // Globals
         white: "#E5E5E5",
+        "gray-white": "#E5E5E5",
         "placeholder-color": "#E5E5E5",
       },
       fontFamily: {
