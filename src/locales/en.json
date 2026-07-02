@@ -1,0 +1,418 @@
+{
+  "header": {
+    "home": "Home",
+    "group": "The Group",
+    "locations": "Our locations",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "catchPhrase": "The universe doesn’t move because of technology. It moves because someone imagined something new.",
+    "news": "In the news",
+    "today": "Today",
+    "fields": "Our fields",
+    "ctaTop": "Let’s analyze your marketing strategy !",
+    "ctaBottom": "Discover the weaknesses in your digital strategy in seconds",
+    "services": {
+      "strategy": "Brand Strategy and Identity",
+      "web": "Web design and development",
+      "print": "Print Design",
+      "video": "Video / Photography",
+      "ai": "AI Innovation",
+      "digital": "Digital Product and Experience Design",
+      "storytelling": "Brand Storytelling and Content",
+      "growth": "Growth Technology and Optimisation",
+      "creative": "Creative Technology",
+      "cta": "View Projects"
+    },
+    "titles": {
+      "snackContent": "Snack Content within your Reach",
+      "partners": "Our partners",
+      "faq": "Frequently asked questions"
+    },
+    "faq": {
+      "questions": {
+        "1": "Why sign with Snackly for my videos?",
+        "2": "Should I choose Acting or Motion?",
+        "3": "How long does it usually take to receive my videos?",
+        "4": "Why do I need videos in my campaigns?",
+        "5": "How much does a Snackly video cost?"
+      },
+      "answers": {
+        "1": "At Snackly, we design and produce videos optimized for your media campaigns. Our videos are tailored to each social network and each placement (Feed, Story, TrueView, Display), taking into account their specific constraints and opportunities. Simply put, you would never communicate the same way on an Instagram Feed as you would in a TikTok Ad. That’s what makes us different and what drives us every day: at Snackly, media drives creativity.",
+        "2": "Both of our solutions are relevant. Acting: This is a highly effective option because it often features real people. Acting videos naturally fit into the social media video ecosystem. However, because filming is involved, production is more complex to organize and therefore more expensive. Motion: This option is far more scalable and easier to launch. Do you already have graphic assets such as photos, illustrations, or videos? We adapt them to create videos perfectly optimized for your media campaigns in record time. However, the final result depends on the quality of your assets. The richer and more visually appealing they are, the greater the impact of the video.",
+        "3": "It all depends on the package you choose. If you select the Acting package, the project will typically take 5 to 6 weeks, and you will receive all your videos ready to launch in your media campaigns. If you choose our Motion package, we can move faster and deliver your videos within 3 to 4 weeks on average. Snackly’s tip: The longer we work together, the better our teams understand your brand voice, which helps reduce production timelines. That’s why Snackly also offers annual packages.",
+        "4": "Today, video accounts for 80% of global web bandwidth consumption. It is the content format most consumed by your audience. In addition, according to TikTok, 80% of a campaign’s ROAS (Return on Ad Spend) depends on the creative itself. So, can you really afford not to use video if you want your online campaigns to perform?",
+        "5": "A video produced by Snackly costs between €1,500 and €2,500. The final price depends on the package you choose (Acting or Motion) and the number of videos you order. Our goal is to disrupt the video content creation market. Video production should not be overly expensive, because the largest share of your budget should be invested in media distribution to maximize traffic and conversions."
+      }
+    }
+  },
+  "services": {
+    "strategy": {
+      "label": "Brand Strategy and Identity",
+      "subservices": {
+        "purpose": "PURPOSE, VISION, MISSION",
+        "positionning": "Brand positioning and narrative",
+        "voice": "Tone of voice",
+        "messaging": "Brand messaging",
+        "name": "Brand name",
+        "logo": "Logo Design",
+        "visual": "Visual Design Systems",
+        "guidelines": "Brand Guidelines",
+        "copywriting": "Copywriting"
+      }
+    },
+    "web": {
+      "label": "Web design and development",
+      "subservices": {
+        "mapping": "Site-mapping and user journeys",
+        "flexible": "Flexible website designs",
+        "framer": "Framer websites",
+        "wordpress": "Bespoke WordPress",
+        "umbraco": "Bespoke Umbraco",
+        "shopify": "Shopify",
+        "accessibility": "Accessibility",
+        "maintenance": "Maintenance",
+        "seo": "SEO"
+      }
+    },
+    "print": {
+      "label": "Print Design",
+      "subservices": {
+        "brochures": "Brochures",
+        "reports": "Annual Reports",
+        "stationery": "Stationery",
+        "materials": "Promotional materials",
+        "menu": "Menu design",
+        "signage": "Signage & wayfinding",
+        "packaging": "Packaging",
+        "design": "Design",
+        "exhibition": "Exhibition",
+        "infographics": "Infographics"
+      }
+    },
+    "video": {
+      "label": "Video / Photography",
+      "subservices": {
+        "video": "Long & short form video content",
+        "image": "Brand image library creation",
+        "onsite": "On-Site photography",
+        "product": "Product photography",
+        "drones": "Drones"
+      }
+    },
+    "ai": {
+      "label": "AI Innovation",
+      "subservices": {
+        "model": "Custom AI Brand Models",
+        "virtual": "Virtual Product Photography",
+        "ambassadors": "AI Brand Ambassadors",
+        "generative": "Generative Pattern Design",
+        "direction": "AI-Driven Creative Direction",
+        "automation": "Automated Visual Scaling"
+      }
+    },
+    "digital": {
+      "label": "Digital Product and Experience Design",
+      "subservices": {
+        "strategy": "PRODUCT STRATEGY & VISION",
+        "research": "UX RESEARCH & USER MAPPING",
+        "ui": "UI DESIGN SYSTEMS",
+        "prototyping": "interactive prototyping",
+        "experience": "DIGITAL BRAND EXPERIENCE",
+        "performance": "PERFORMANCE-driven design"
+      }
+    },
+    "storytelling": {
+      "label": "Brand Storytelling and Content",
+      "subservices": {
+        "financial": "Financial Presentations",
+        "training": "Training Materials & Webinars",
+        "defense": "Defense Presentations",
+        "sales": "Sales Presentations",
+        "event": "Event Presentations",
+        "powerpoint": "PowerPoint & Google Slides Templates",
+        "internal": "Internal Presentations",
+        "corporate": "Corporate & Institutional Presentations",
+        "tender": "Tender & RFP Presentations",
+        "interactive": "Interactive Presentations",
+        "pitch": "Pitch Decks & Fundraising"
+      }
+    },
+    "growth": {
+      "label": "Growth Technology and Optimisation",
+      "subservices": {}
+    },
+    "creative": {
+      "label": "Creative Technology",
+      "subservices": {}
+    },
+    "title": "Our services",
+    "overview": "Overview"
+  },
+  "locations": {
+    "badge": "GLOBAL NETWORK",
+    "title": "Visuance, a unique vision for your growth.",
+    "description": "A creative ecosystem dedicated to your visual identity, helping your brand scale internationally.",
+    "agent": "Local Agent",
+    "stats": {
+      "experts": "Experts",
+      "clients": "Clients",
+      "continents": "Continents"
+    },
+
+    "cta": {
+      "title": "Building your digital success together.",
+      "button": "Start a project",
+      "link": "/contact"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "Learn what data we collect, why we use it, and what rights you have regarding its processing.",
+    "lastUpdate": "Last updated: June 24, 2026",
+    "company": {
+      "name": "Visuance Agency",
+      "email": "contact@visuanceagency.com"
+    },
+
+    "collectedData": {
+      "title": "What data do we collect?",
+      "description": "Visuance may collect data when you:",
+      "item1": "Complete a contact form",
+      "item2": "Request a quote",
+      "item3": "Browse the website",
+      "fieldsTitle": "Data that may be collected",
+      "field1": "Last name",
+      "field2": "First name",
+      "field3": "Email address",
+      "field4": "Phone number",
+      "field5": "Company",
+      "field6": "Message",
+      "field7": "IP address",
+      "field8": "Browsing data"
+    },
+
+    "purposes": {
+      "title": "Why do we use your data?",
+      "item1": "Respond to contact requests",
+      "item2": "Provide quotes and services",
+      "item3": "Improve the user experience",
+      "item4": "Analyze website performance",
+      "item5": "Develop and improve our services"
+    },
+
+    "legalBases": {
+      "title": "What are the legal bases for processing your data?",
+      "item1": "Your consent",
+      "item2": "The performance of a pre-contractual relationship",
+      "item3": "The company's legitimate interests"
+    },
+
+    "retention": {
+      "title": "How long do we retain your data?",
+      "prospectsTitle": "Prospects",
+      "prospectsDescription": "Up to 3 years after the last contact.",
+      "clientsTitle": "Clients / Legal obligations",
+      "clientsDescription": "Up to 10 years, depending on applicable legal requirements."
+    },
+
+    "sharing": {
+      "title": "Who do we share your data with?",
+      "item1": "Technical service providers (hosting, CRM, analytics)",
+      "item2": "Services required for the operation of the website",
+      "notice": "No personal data is sold or transferred to third parties."
+    },
+
+    "cookies": {
+      "title": "How do we use cookies?",
+      "item1": "Measure website traffic",
+      "item2": "Improve navigation",
+      "item3": "Optimize marketing performance",
+      "description": "A cookie consent banner allows you to manage your preferences."
+    },
+
+    "rights": {
+      "title": "What are your rights?",
+      "item1": "Right of access",
+      "item2": "Right to rectification",
+      "item3": "Right to erasure",
+      "item4": "Right to object",
+      "item5": "Right to data portability",
+      "contactTitle": "Exercise your rights"
+    },
+
+    "security": {
+      "title": "How do we protect your data?",
+      "description": "Visuance implements appropriate technical and organizational measures to protect your data against loss, unauthorized access, or disclosure."
+    },
+
+    "updates": {
+      "title": "Can this policy be updated?",
+      "description": "This Privacy Policy may be updated at any time to reflect legal or technical changes."
+    },
+
+    "footer": {
+      "title": "Contact"
+    }
+  },
+  "legal": {
+    "title": "Legal Notices",
+    "description": "Information about the website publisher, hosting provider, business activity, and the terms of use of Visuance.",
+
+    "publisher": {
+      "title": "Who publishes this website?",
+      "company": {
+        "label": "Company",
+        "value": "Visuance Agency"
+      },
+      "contact": {
+        "label": "Contact",
+        "value": "contact@visuanceagency.com"
+      }
+    },
+
+    "hosting": {
+      "title": "Where is the website hosted?",
+      "provider": {
+        "label": "Hosting Provider",
+        "value": "OVHcloud"
+      },
+      "website": {
+        "label": "Website",
+        "value": "www.ovhcloud.com",
+        "url": "https://www.ovhcloud.com"
+      }
+    },
+
+    "activity": {
+      "title": "What does Visuance do?",
+      "description": "Visuance is an agency specialized in the creation and optimization of digital solutions.",
+      "item1": "Website development",
+      "item2": "Branding & visual identity",
+      "item3": "UX/UI design",
+      "item4": "Digital strategy",
+      "item5": "Marketing & customer acquisition"
+    },
+
+    "intellectualProperty": {
+      "title": "How is the content protected?",
+      "cardTitle": "Content Protection",
+      "cardDescription": "All content available on the Visuance website (texts, images, graphics, logos, videos, structure, etc.) is protected by intellectual property laws.",
+      "description": "Any reproduction, representation, modification, or use, in whole or in part, without prior written authorization is strictly prohibited."
+    },
+
+    "responsibility": {
+      "title": "What is our liability?",
+      "description": "Visuance strives to provide accurate and up-to-date information. However, the publisher cannot be held liable for:",
+      "item1": "Errors or omissions",
+      "item2": "Temporary unavailability of the website",
+      "item3": "Any use made of the information provided"
+    },
+
+    "externalLinks": {
+      "title": "What about third-party websites?",
+      "description": "This website may contain links to external websites. Visuance accepts no responsibility for the content of these third-party websites."
+    },
+
+    "privacy": {
+      "title": "How is personal data handled?",
+      "description": "Personal data collected through the website is processed in accordance with applicable regulations and our Privacy Policy.",
+      "link": "View the Privacy Policy →",
+      "href": "/privacy-policy"
+    },
+
+    "applicableLaw": {
+      "title": "Applicable Law",
+      "description": "This website is governed by French law. Any dispute shall be subject to the jurisdiction of the courts within the district of Visuance's registered office."
+    }
+  },
+  "contact": {
+    "catchPhrase": "Let’s build your growth together",
+    "detailedPhrase": "Our experts help you define a digital strategy aligned with your goals. Contact us using the communication method that suits you best.",
+    "mail": {
+      "label": "Email",
+      "value": "contact@visuanceagency.com"
+    },
+    "phone": {
+      "label": "Phone",
+      "value": "+33 1 30 29 30 25"
+    },
+    "schedules": {
+      "label": "Business Hours",
+      "value": "Mon–Fri · 9:30 AM–7:00 PM"
+    },
+    "presentation": "9 complementary areas of expertise, one single goal: helping your business grow.",
+    "getCalledBack": {
+      "label": "Get called back",
+      "pending": "Sending",
+      "cta": "Request a callback",
+      "success": "Demand successfully submitted !",
+      "failure": "An error occured. Please try again"
+    },
+    "sendMessage": {
+      "label": "Send a message",
+      "pending": "Sending",
+      "cta": "Send",
+      "success": "Message successfully submitted !",
+      "failure": "An error occured. Please try again"
+    },
+    "inputs": {
+      "firstname": {
+        "label": "First Name",
+        "placeholder": "John"
+      },
+      "lastname": {
+        "label": "Last Name",
+        "placeholder": "Smith"
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "placeholder": "+33 6 12 34 56 78"
+      },
+      "mail": {
+        "label": "Email",
+        "placeholder": "johnsmith@gmail.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us how we can help you"
+      },
+      "subject": "Subject",
+      "dayOfCall": "Call date",
+      "hourOfCall": "Call time",
+      "selectPlaceholder": "Select",
+      "services": {
+        "strategy": "Brand Strategy and Identity",
+        "web": "Web design and development",
+        "print": "Print Design",
+        "video": "Video / Photography",
+        "ai": "AI Innovation",
+        "digital": "Digital Product and Experience Design",
+        "storytelling": "Brand Storytelling and Content",
+        "growth": "Growth Technology and Optimisation",
+        "creative": "Creative Technology",
+        "other": "Other Inquiry"
+      }
+    }
+  },
+  "about": {
+    "title": "Who are we ?",
+    "sentence1": "Behind every strong brand identity lies a passionate team.",
+    "sentence2": "Our studio brings together creative and technical professionals who share the same vision: to design cohesive, useful, and memorable visual experiences. Designers, strategists, and developers work hand in hand to transform ideas into vibrant brands and high-performing digital products.",
+    "sentence3": "Art directors set the tone and ensure the aesthetic consistency of each project. Designers shape visual worlds, imagine brand identities, and create interfaces that are both elegant and intuitive. Brand strategists analyze the challenges, clarify the messaging, and build solid foundations so that each identity is meaningful and impactful.",
+    "sentence4": "Alongside them, developers bring concepts to life. They transform mockups into seamless, high-performing, and sustainable interactive experiences. Their technical expertise ensures that every creation is not only beautiful but also functional and scalable.",
+    "sentence5": "What sets us apart is our way of working: through constant collaboration. Ideas flow freely, skills complement each other, and every project benefits from a collective perspective. This synergy allows us to combine creativity, rigor, and innovation.",
+    "sentence6": "Our team is not just made up of specialists: they are explorers, artisans of detail, and partners committed to our clients' success.",
+    "sentence7": "Together, we create identities that tell a story, designs that captivate, and digital experiences that last."
+  },
+  "footer": {
+    "presence": "Social Media Presence",
+    "legacy": "Legal Notices",
+    "contact": "Contact",
+    "policy": "Policy",
+    "group": "The Group",
+    "rights": "All rights reserved.",
+    "creators": "created by"
+  }
+}

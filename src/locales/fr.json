@@ -1,0 +1,417 @@
+{
+  "header": {
+    "home": "Accueil",
+    "group": "Le Groupe",
+    "locations": "Nos localisations",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "home": {
+    "catchPhrase": "L’univers n’avance pas grâce à la technologie. Il avance parce que quelqu’un a imaginé quelque chose de nouveau.",
+    "news": "Nouveau",
+    "today": "Aujourd'hui",
+    "fields": "Nos domaines",
+    "ctaTop": "Analysons votre stratégie marketing !",
+    "ctaBottom": "Découvrez les faiblesses de votre stratégie digitale en quelques secondes",
+    "services": {
+      "strategy": "Stratégie et identité de marque",
+      "web": "Conception et développement web",
+      "print": "Design d'impression",
+      "video": "Vidéo / Photographie",
+      "ai": "Innovation IA",
+      "digital": "Conception de produits et d’expériences digitales",
+      "storytelling": "Storytelling de marque et création de contenu",
+      "growth": "Technologie de croissance et optimisation",
+      "creative": "Technologie créative",
+      "cta": "Voir les projets"
+    },
+    "titles": {
+      "snackContent": "Le Snack Content à votre portée",
+      "partners": "Nos partenaires",
+      "faq": "Questions fréquentes"
+    },
+    "faq": {
+      "questions": {
+        "1": "Pourquoi choisir Snackly pour mes vidéos ?",
+        "2": "Dois-je choisir l’Acting ou le Motion ?",
+        "3": "Combien de temps faut-il en moyenne pour recevoir mes vidéos ?",
+        "4": "Pourquoi ai-je besoin de vidéos dans mes campagnes ?",
+        "5": "Combien coûte une vidéo Snackly ?"
+      },
+      "answers": {
+        "1": "Chez Snackly, nous imaginons et réalisons des vidéos optimisées pour vos campagnes médias. Nos vidéos sont adaptées à chaque réseau social et à chaque emplacement de diffusion (Feed, Story, TrueView, Display), en tenant compte de leurs contraintes et opportunités spécifiques. Tout simplement parce qu’on ne communique pas de la même manière sur un feed Instagram que dans une publicité TikTok. C’est ce qui fait notre différence et ce qui nous anime au quotidien : chez Snackly, c’est le média qui dicte la création.",
+        "2": "Nos deux solutions sont pertinentes. Acting : c’est une option très performante car elle met souvent en scène de vraies personnes. Les vidéos en acting s’intègrent naturellement dans l’écosystème vidéo des réseaux sociaux. Cependant, puisqu’un tournage est nécessaire, la production est plus complexe à organiser et donc plus coûteuse. Motion : cette option est beaucoup plus scalable et facile à lancer. Vous disposez déjà d’assets graphiques tels que des photos, illustrations ou vidéos ? Nous les adaptons pour créer des vidéos parfaitement optimisées pour vos campagnes médias en un temps record. Toutefois, le résultat final dépend de la qualité de vos assets. Plus ils sont riches et attractifs visuellement, plus la vidéo sera impactante.",
+        "3": "Tout dépend du pack que vous choisissez. Si vous sélectionnez le pack Acting, le projet prendra généralement entre 5 et 6 semaines et vous recevrez toutes vos vidéos prêtes à être diffusées dans vos campagnes médias. Si vous choisissez notre pack Motion, nous pouvons aller plus vite et vous livrer vos vidéos en 3 à 4 semaines en moyenne. Le conseil Snackly : plus nous collaborons sur la durée, plus nos équipes maîtrisent le ton de votre marque, ce qui permet de réduire les délais de production. C’est pourquoi Snackly propose également des packs annuels.",
+        "4": "Aujourd’hui, la vidéo représente 80 % de la consommation mondiale de bande passante sur Internet. C’est le format de contenu le plus consommé par votre audience. De plus, selon TikTok, 80 % du ROAS (retour sur investissement publicitaire) d’une campagne dépend de la création elle-même. Alors, pouvez-vous vraiment vous permettre de ne pas utiliser la vidéo si vous souhaitez améliorer les performances de vos campagnes en ligne ?",
+        "5": "Une vidéo produite par Snackly coûte entre 1 500 € et 2 500 €. Le prix final dépend du pack choisi (Acting ou Motion) ainsi que du nombre de vidéos commandées. Notre objectif est de révolutionner le marché de la création de contenu vidéo. La production vidéo ne doit pas être excessivement coûteuse, car la plus grande partie de votre budget devrait être consacrée à la diffusion média afin de maximiser votre trafic et vos conversions."
+      }
+    }
+  },
+  "services": {
+    "strategy": {
+      "label": "Stratégie et identité de marque",
+      "subservices": {
+        "purpose": "RAISON D’ÊTRE, VISION, MISSION",
+        "positionning": "Positionnement et narration de marque",
+        "voice": "Ton de voix",
+        "messaging": "Messages de marque",
+        "name": "Nom de marque",
+        "logo": "Création de logo",
+        "visual": "Systèmes de design visuel",
+        "guidelines": "Charte de marque",
+        "copywriting": "Rédaction de contenu"
+      }
+    },
+    "web": {
+      "label": "Conception et développement web",
+      "subservices": {
+        "mapping": "Arborescence du site et parcours utilisateurs",
+        "flexible": "Conceptions de sites web flexibles",
+        "framer": "Sites web Framer",
+        "wordpress": "WordPress sur mesure",
+        "umbraco": "Umbraco sur mesure",
+        "shopify": "Shopify",
+        "accessibility": "Accessibilité",
+        "maintenance": "Maintenance",
+        "seo": "Référencement naturel (SEO)"
+      }
+    },
+    "print": {
+      "label": "Design print",
+      "subservices": {
+        "brochures": "Brochures",
+        "reports": "Rapports annuels",
+        "stationery": "Papeterie",
+        "materials": "Supports promotionnels",
+        "menu": "Conception de menus",
+        "signage": "Signalétique et orientation",
+        "packaging": "Packaging",
+        "design": "Design",
+        "exhibition": "Exposition",
+        "infographics": "Infographies"
+      }
+    },
+    "video": {
+      "label": "Vidéo / Photographie",
+      "subservices": {
+        "video": "Contenus vidéo courts et longs formats",
+        "image": "Création de bibliothèques d’images de marque",
+        "onsite": "Photographie sur site",
+        "product": "Photographie produit",
+        "drones": "Prises de vue par drone"
+      }
+    },
+    "ai": {
+      "label": "Innovation IA",
+      "subservices": {
+        "model": "Modèles IA personnalisés pour la marque",
+        "virtual": "Photographie produit virtuelle",
+        "ambassadors": "Ambassadeurs de marque IA",
+        "generative": "Création de motifs génératifs",
+        "direction": "Direction créative pilotée par l’IA",
+        "automation": "Mise à l’échelle visuelle automatisée"
+      }
+    },
+    "digital": {
+      "label": "Conception de produits et d’expériences digitales",
+      "subservices": {
+        "strategy": "STRATÉGIE ET VISION PRODUIT",
+        "research": "RECHERCHE UX ET CARTOGRAPHIE UTILISATEUR",
+        "ui": "SYSTÈMES DE DESIGN UI",
+        "prototyping": "Prototypage interactif",
+        "experience": "EXPÉRIENCE DE MARQUE DIGITALE",
+        "performance": "Design orienté performance"
+      }
+    },
+    "storytelling": {
+      "label": "Storytelling de marque et contenu",
+      "subservices": {
+        "financial": "Présentations financières",
+        "training": "Supports de formation et webinaires",
+        "defense": "Présentations de soutenance",
+        "sales": "Présentations commerciales",
+        "event": "Présentations événementielles",
+        "powerpoint": "Modèles PowerPoint et Google Slides",
+        "internal": "Présentations internes",
+        "corporate": "Présentations corporate et institutionnelles",
+        "tender": "Présentations d’appels d’offres et RFP",
+        "interactive": "Présentations interactives",
+        "pitch": "Pitch decks et levées de fonds"
+      }
+    },
+    "growth": {
+      "label": "Technologie de croissance et optimisation",
+      "subservices": {}
+    },
+    "creative": {
+      "label": "Technologie créative",
+      "subservices": {}
+    },
+    "title": "Nos services",
+    "overview": "Vue d’ensemble"
+  },
+  "locations": {
+    "badge": "GLOBAL NETWORK",
+    "title": "Pulse X, une vision unique pour votre croissance.",
+    "description": "Un écosystème digital qui développe votre visibilité et engage votre communauté sur les réseaux sociaux",
+    "agent": "Agent local",
+    "stats": {
+      "experts": "Experts",
+      "clients": "Clients",
+      "continents": "Continents"
+    },
+
+    "cta": {
+      "title": "Bâtir vos succès digitaux avec nous.",
+      "button": "Démarrer un projet"
+    }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "description": "Découvrez quelles données nous collectons, pourquoi nous les utilisons et quels sont vos droits concernant leur traitement.",
+    "lastUpdate": "Dernière mise à jour : 24 juin 2026",
+    "company": {
+      "name": "Visuance Agency",
+      "email": "contact@visuanceagency.com"
+    },
+
+    "collectedData": {
+      "title": "Quelles données collectons-nous ?",
+      "description": "Visuance peut collecter des données lorsque vous :",
+      "item1": "Remplissez un formulaire de contact",
+      "item2": "Demandez un devis",
+      "item3": "Naviguez sur le site",
+      "fieldsTitle": "Données susceptibles d’être collectées",
+      "field1": "Nom",
+      "field2": "Prénom",
+      "field3": "Adresse e-mail",
+      "field4": "Téléphone",
+      "field5": "Entreprise",
+      "field6": "Message",
+      "field7": "Adresse IP",
+      "field8": "Données de navigation"
+    },
+
+    "purposes": {
+      "title": "Pourquoi utilisons-nous vos données ?",
+      "item1": "Répondre aux demandes de contact",
+      "item2": "Fournir des devis et prestations",
+      "item3": "Améliorer l’expérience utilisateur",
+      "item4": "Analyser les performances du site",
+      "item5": "Développer les services proposés"
+    },
+
+    "legalBases": {
+      "title": "Sur quelle base légale reposent les traitements ?",
+      "item1": "Le consentement de l’utilisateur",
+      "item2": "L’exécution d’une relation précontractuelle",
+      "item3": "L’intérêt légitime de l’entreprise"
+    },
+
+    "retention": {
+      "title": "Combien de temps conservons-nous vos données ?",
+      "prospectsTitle": "Prospects",
+      "prospectsDescription": "Jusqu’à 3 ans après le dernier contact.",
+      "clientsTitle": "Clients / obligations légales",
+      "clientsDescription": "Jusqu’à 10 ans selon les obligations légales applicables."
+    },
+
+    "sharing": {
+      "title": "Avec qui partageons-nous vos données ?",
+      "item1": "Prestataires techniques (hébergement, CRM, analytics)",
+      "item2": "Services nécessaires au fonctionnement du site",
+      "notice": "Aucune donnée n’est vendue ou cédée à des tiers."
+    },
+
+    "cookies": {
+      "title": "Comment utilisons-nous les cookies ?",
+      "item1": "Mesurer l’audience",
+      "item2": "Améliorer la navigation",
+      "item3": "Optimiser les performances marketing",
+      "description": "Un bandeau de consentement permet de gérer vos préférences."
+    },
+
+    "rights": {
+      "title": "Quels sont vos droits ?",
+      "item1": "Droit d’accès",
+      "item2": "Droit de rectification",
+      "item3": "Droit de suppression",
+      "item4": "Droit d’opposition",
+      "item5": "Droit à la portabilité",
+      "contactTitle": "Exercer vos droits"
+    },
+
+    "security": {
+      "title": "Comment protégeons-nous vos données ?",
+      "description": "Visuance met en œuvre des mesures techniques et organisationnelles afin de protéger vos données contre toute perte, accès non autorisé ou divulgation."
+    },
+
+    "updates": {
+      "title": "Cette politique peut-elle évoluer ?",
+      "description": "Cette politique peut être mise à jour à tout moment afin de respecter les évolutions légales ou techniques."
+    },
+
+    "footer": {
+      "title": "Contact"
+    }
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "description": "Informations relatives à l’éditeur du site, à son hébergement, à son activité et aux conditions d’utilisation de Visuance.",
+
+    "publisher": {
+      "title": "Qui édite ce site ?",
+      "company": {
+        "label": "Société",
+        "value": "Visuance Agency"
+      },
+      "contact": {
+        "label": "Contact",
+        "value": "contact@visuanceagency.com"
+      }
+    },
+
+    "hosting": {
+      "title": "Où le site est-il hébergé ?",
+      "provider": {
+        "label": "Hébergeur",
+        "value": "OVH Cloud"
+      },
+      "website": {
+        "label": "Site web",
+        "value": "www.ovhcloud.com",
+        "url": "https://www.ovhcloud.com"
+      }
+    },
+
+    "activity": {
+      "title": "Quelle est l’activité de Visuance ?",
+      "description": "Visuance est une agence spécialisée dans la création et l’optimisation de solutions digitales.",
+      "item1": "Création de sites web",
+      "item2": "Branding & identité visuelle",
+      "item3": "UX/UI design",
+      "item4": "Stratégie digitale",
+      "item5": "Marketing et acquisition"
+    },
+
+    "intellectualProperty": {
+      "title": "Comment sont protégés les contenus ?",
+      "cardTitle": "Protection des contenus",
+      "cardDescription": "L’ensemble du contenu présent sur le site Visuance (textes, images, graphismes, logos, vidéos, structure, etc.) est protégé par le droit de la propriété intellectuelle.",
+      "description": "Toute reproduction, représentation, modification ou exploitation, totale ou partielle, sans autorisation écrite préalable est strictement interdite."
+    },
+
+    "responsibility": {
+      "title": "Quelle est notre responsabilité ?",
+      "description": "Visuance s’efforce de fournir des informations fiables et à jour. Cependant, l’éditeur ne peut être tenu responsable :",
+      "item1": "Des erreurs ou omissions",
+      "item2": "D’une indisponibilité temporaire du site",
+      "item3": "De l’utilisation faite des informations présentes"
+    },
+
+    "externalLinks": {
+      "title": "Qu’en est-il des sites tiers ?",
+      "description": "Le site peut contenir des liens vers d’autres sites web. Visuance décline toute responsabilité concernant le contenu de ces sites tiers."
+    },
+
+    "privacy": {
+      "title": "Comment sont traitées les données personnelles ?",
+      "description": "Les données personnelles collectées via le site sont traitées conformément à la réglementation en vigueur et à notre politique de confidentialité.",
+      "link": "Consulter la politique de confidentialité →",
+      "href": "/privacy-policy"
+    },
+
+    "applicableLaw": {
+      "title": "Droit applicable",
+      "description": "Le présent site est soumis au droit français. Tout litige sera soumis à la compétence des tribunaux du ressort du siège social de Visuance."
+    }
+  },
+  "contact": {
+    "catchPhrase": "Construisons votre croissance ensemble",
+    "detailedPhrase": "Nos experts vous accompagnent dans la définition d’une stratégie digitale alignée sur vos objectifs. Contactez-nous selon le mode d’échange qui vous convient le mieux.",
+    "mail": {
+      "label": "Email",
+      "value": "contact@visuanceagency.com"
+    },
+    "phone": {
+      "label": "Téléphone",
+      "value": "+33 1 30 29 30 25"
+    },
+    "schedules": {
+      "label": "Horaires",
+      "value": "Lun–Ven · 9h30–19h00"
+    },
+    "presentation": "9 expertises complémentaires, un seul objectif : faire grandir votre entreprise.",
+    "getCalledBack": {
+      "label": "Se faire rappeler",
+      "pending": "Envoi",
+      "cta": "Programmer l'appel",
+      "success": "Demande envoyée avec succès !",
+      "failure": "Une erreur est survenue. Veuillez réessayer."
+    },
+    "sendMessage": {
+      "label": "Envoyer un message",
+      "pending": "Envoi",
+      "cta": "Envoyer",
+      "success": "Message envoyé avec succès !",
+      "failure": "Une erreur est survenue. Veuillez réessayer."
+    },
+    "inputs": {
+      "firstname": {
+        "label": "Prénom",
+        "placeholder": "Jean"
+      },
+      "lastname": {
+        "label": "Nom",
+        "placeholder": "Dupont"
+      },
+      "phoneNumber": {
+        "label": "Numéro de téléphone",
+        "placeholder": "+33 6 12 34 56 78"
+      },
+      "mail": {
+        "label": "Email",
+        "placeholder": "jeandupont@gmail.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Expliquez-nous comment nous pouvons vous aider"
+      },
+      "subject": "Sujet",
+      "dayOfCall": "Date de l’appel",
+      "hourOfCall": "Horaire de l’appel",
+      "selectPlaceholder": "Sélectionner",
+      "services": {
+        "strategy": "Stratégie et identité de marque",
+        "web": "Conception et développement web",
+        "print": "Design d'impression",
+        "video": "Vidéo / Photographie",
+        "ai": "Innovation IA",
+        "digital": "Conception de produits et d’expériences digitales",
+        "storytelling": "Storytelling de marque et création de contenu",
+        "growth": "Technologie de croissance et optimisation",
+        "creative": "Technologie créative",
+        "other": "Autre demande"
+      }
+    }
+  },
+  "about": {
+    "title": "Qui sommes-nous ?",
+    "sentence1": "Derrière chaque identité de marque forte se cache une équipe passionnée.",
+    "sentence2": "Notre studio réunit des professionnels créatifs et techniques qui partagent une même vision : concevoir des expériences visuelles cohérentes, utiles et mémorables. Designers, stratèges et développeurs travaillent main dans la main pour transformer les idées en marques vivantes et en produits digitaux performants.",
+    "sentence3": "Les directeurs artistiques donnent le ton et veillent à la cohérence esthétique de chaque projet. Les designers façonnent des univers visuels, imaginent des identités de marque et créent des interfaces à la fois élégantes et intuitives. Les stratèges de marque analysent les enjeux, clarifient les messages et construisent des fondations solides afin que chaque identité soit porteuse de sens et d’impact.",
+    "sentence4": "À leurs côtés, les développeurs donnent vie aux concepts. Ils transforment les maquettes en expériences interactives fluides, performantes et durables. Leur expertise technique garantit que chaque création soit non seulement belle, mais aussi fonctionnelle et évolutive.",
+    "sentence5": "Ce qui nous distingue, c’est notre manière de travailler : une collaboration permanente. Les idées circulent librement, les compétences se complètent et chaque projet bénéficie d’une vision collective. Cette synergie nous permet d’allier créativité, rigueur et innovation.",
+    "sentence6": "Notre équipe n’est pas seulement composée de spécialistes : ce sont des explorateurs, des artisans du détail et des partenaires engagés dans la réussite de nos clients.",
+    "sentence7": "Ensemble, nous créons des identités qui racontent une histoire, des designs qui captivent et des expériences digitales qui durent."
+  },
+  "footer": {
+    "presence": "Présence sur les réseaux sociaux",
+    "legacy": "Mentions légales",
+    "contact": "Contact",
+    "policy": "Politique",
+    "group": "Le Groupe",
+    "rights": "Tous droits réservés.",
+    "creators": "créé par"
+  }
+}
