@@ -82,11 +82,11 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black flex items-center justify-between px-8 py-4">
       {/* Gauche */}
-      <div className="flex items-center gap-10">
+      <div className="hidden md:flex items-center gap-10">
         <ToggleLanguage />
         <NavLink
           to="/location"
-          className="hidden md:flex items-center gap-2 text-white hover:text-seofy-green transition-colors"
+          className="items-center gap-2 text-white hover:text-seofy-green transition-colors"
         >
           <MapPin className="w-5 h-5" />
         </NavLink>
