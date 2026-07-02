@@ -1,6 +1,8 @@
 import { useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { Globe, MapPin } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import ToggleLanguage from "./Language/ToggleLanguage";
 
 interface SubItem {
   label: string;
@@ -29,11 +31,45 @@ const navItems: NavItem[] = [
   { label: "Contact", path: "/contact" },
 ];
 
+const mobileNavItems: NavItem[] = [
+  { label: "The Group", path: "https://www.playtosky.com/", external: true },
+  { label: "Our locations", path: "/location" },
+  {
+    label: "Services",
+    path: "/services",
+    subItems: [
+      { label: "Brand Content", path: "/brandcontent" },
+      { label: "Social Ads", path: "/socialads" },
+      { label: "Influence", path: "/influence" },
+    ],
+  },
+  { label: "About", path: "/about" },
+  { label: "Contact", path: "/contact" },
+];
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
   const [servicesOpen, setServicesOpen] = useState<boolean>(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState<boolean>(false);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const { i18n } = useTranslation();
+
+  const [mobileLanguagesOpen, setMobileLanguagesOpen] =
+    useState<boolean>(false);
+
+  const [languages, setLanguages] = useState([
+    {
+      language: "English",
+      label: "en",
+      active: false,
+    },
+    {
+      language: "Français",
+      label: "fr",
+      active: true,
+    },
+  ]);
 
   const handleMouseEnter = () => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
@@ -47,13 +83,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black flex items-center justify-between px-8 py-4">
       {/* Gauche */}
       <div className="flex items-center gap-10">
-        <NavLink
-          to="/en"
-          className="hidden md:flex items-center gap-2 bg-white text-black px-5 py-2 rounded-full font-glacial text-t6 hover:bg-white/90 transition"
-        >
-          <Globe className="w-4 h-4" />
-          English
-        </NavLink>
+        <ToggleLanguage />
         <NavLink
           to="/location"
           className="hidden md:flex items-center gap-2 text-white hover:text-seofy-green transition-colors"
@@ -63,7 +93,7 @@ export default function Navbar() {
       </div>
 
       {/* Logo */}
-      <NavLink to="/" className="shrink-0 absolute -translate-x-1/2 left-1/2">
+      <NavLink to="/" className="shrink-0">
         <img src="/logoPulseX.png" alt="Pulse X" className="h-9" />
       </NavLink>
 
@@ -185,7 +215,7 @@ export default function Navbar() {
 
         {/* Items centrés */}
         <ul className="flex flex-col items-center gap-8 flex-1">
-          {navItems.map(({ label, path, external, subItems }) => (
+          {mobileNavItems.map(({ label, path, external, subItems }) => (
             <li key={path} className="text-center">
               {external ? (
                 <a
@@ -249,6 +279,52 @@ export default function Navbar() {
               )}
             </li>
           ))}
+          <li>
+            <button
+              onClick={() => setMobileLanguagesOpen((prev) => !prev)}
+              className="font-glacial text-t3 text-white flex items-center gap-2 mx-auto uppercase"
+            >
+              {languages.filter((lang) => lang.active)[0].label}
+              <svg
+                className={`w-4 h-4 transition-transform duration-200 ${mobileLanguagesOpen ? "rotate-180" : ""}`}
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+
+            <ul
+              className={`overflow-hidden transition-all duration-300 flex flex-col items-center gap-3 ${mobileLanguagesOpen ? "max-h-40 mt-4" : "max-h-0"}`}
+            >
+              {languages.map((lang) => (
+                <li
+                  key={lang.language}
+                  className={`block px-4 py-2 font-glacial text-t4 transition-colors duration-200 text-white hover:text-gray-white hover:bg-white/5 cursor-pointer`}
+                  onClick={() => {
+                    i18n.changeLanguage(lang.label);
+                    setLanguages(
+                      languages.map((language) => {
+                        if (language.label === lang.label) {
+                          return { ...language, active: true };
+                        }
+                        return { ...language, active: false };
+                      }),
+                    );
+                    setMenuOpen(false);
+                  }}
+                >
+                  {lang.language}
+                </li>
+              ))}
+            </ul>
+          </li>
         </ul>
 
         {/* Mention en bas */}
