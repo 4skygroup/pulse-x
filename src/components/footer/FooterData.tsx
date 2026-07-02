@@ -1,5 +1,3 @@
-import { useTranslation } from "react-i18next";
-
 export const politique = [
   { label: "footer.policy.notices", href: "/mentions-legales" },
   { label: "footer.policy.policy", href: "/confidentialite" },
