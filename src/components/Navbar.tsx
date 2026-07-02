@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
-import { Globe, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import ToggleLanguage from "./Language/ToggleLanguage";
 
