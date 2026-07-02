@@ -7,7 +7,7 @@ export default function ToggleLanguage() {
   return (
     <button
       onClick={() => i18n.changeLanguage(i18n.language === "fr" ? "en" : "fr")}
-      className="items-center gap-2 bg-white text-black px-6 py-1.5 rounded-full text-sm"
+      className="items-center gap-2 bg-white text-black px-6 py-1.5 rounded-full text-sm flex"
     >
       <Globe size={14} />
       {i18n.language === "fr" ? "English" : "Français"}

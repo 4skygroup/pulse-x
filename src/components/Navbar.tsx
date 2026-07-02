@@ -16,45 +16,52 @@ interface NavItem {
   subItems?: SubItem[];
 }
 
-const navItems: NavItem[] = [
-  { label: "The Group", path: "https://www.playtosky.com/", external: true },
-  {
-    label: "Services",
-    path: "/services",
-    subItems: [
-      { label: "Brand Content", path: "/brandcontent" },
-      { label: "Social Ads", path: "/socialads" },
-      { label: "Influence", path: "/influence" },
-    ],
-  },
-  { label: "About", path: "/about" },
-  { label: "Contact", path: "/contact" },
-];
-
-const mobileNavItems: NavItem[] = [
-  { label: "The Group", path: "https://www.playtosky.com/", external: true },
-  { label: "Our locations", path: "/location" },
-  {
-    label: "Services",
-    path: "/services",
-    subItems: [
-      { label: "Brand Content", path: "/brandcontent" },
-      { label: "Social Ads", path: "/socialads" },
-      { label: "Influence", path: "/influence" },
-    ],
-  },
-  { label: "About", path: "/about" },
-  { label: "Contact", path: "/contact" },
-];
-
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
   const [servicesOpen, setServicesOpen] = useState<boolean>(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState<boolean>(false);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
+  const navItems: NavItem[] = [
+    {
+      label: t("header.group"),
+      path: "https://www.playtosky.com/",
+      external: true,
+    },
+    {
+      label: t("header.services"),
+      path: "/services",
+      subItems: [
+        { label: "Brand Content", path: "/brandcontent" },
+        { label: "Social Ads", path: "/socialads" },
+        { label: "Influence", path: "/influence" },
+      ],
+    },
+    { label: t("header.about"), path: "/about" },
+    { label: t("header.contact"), path: "/contact" },
+  ];
+
+  const mobileNavItems: NavItem[] = [
+    {
+      label: t("header.group"),
+      path: "https://www.playtosky.com/",
+      external: true,
+    },
+    { label: t("header.locations"), path: "/location" },
+    {
+      label: t("header.services"),
+      path: "/services",
+      subItems: [
+        { label: "Brand Content", path: "/brandcontent" },
+        { label: "Social Ads", path: "/socialads" },
+        { label: "Influence", path: "/influence" },
+      ],
+    },
+    { label: t("header.about"), path: "/about" },
+    { label: t("header.contact"), path: "/contact" },
+  ];
   const [mobileLanguagesOpen, setMobileLanguagesOpen] =
     useState<boolean>(false);
 

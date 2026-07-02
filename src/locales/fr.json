@@ -2,154 +2,349 @@
   "header": {
     "home": "Accueil",
     "group": "Le Groupe",
+    "services": "Services",
     "locations": "Nos localisations",
     "about": "À propos",
     "contact": "Contact"
   },
   "home": {
-    "catchPhrase": "L’univers n’avance pas grâce à la technologie. Il avance parce que quelqu’un a imaginé quelque chose de nouveau.",
-    "news": "Nouveau",
-    "today": "Aujourd'hui",
-    "fields": "Nos domaines",
-    "ctaTop": "Analysons votre stratégie marketing !",
-    "ctaBottom": "Découvrez les faiblesses de votre stratégie digitale en quelques secondes",
-    "services": {
-      "strategy": "Stratégie et identité de marque",
-      "web": "Conception et développement web",
-      "print": "Design d'impression",
-      "video": "Vidéo / Photographie",
-      "ai": "Innovation IA",
-      "digital": "Conception de produits et d’expériences digitales",
-      "storytelling": "Storytelling de marque et création de contenu",
-      "growth": "Technologie de croissance et optimisation",
-      "creative": "Technologie créative",
-      "cta": "Voir les projets"
+    "hero": {
+      "title": "Social Creative Agency",
+      "subtitle": "Social Agency - Media and Community Management",
+      "button": "Start"
     },
-    "titles": {
-      "snackContent": "Le Snack Content à votre portée",
-      "partners": "Nos partenaires",
-      "faq": "Questions fréquentes"
+    "revenue": {
+      "title": "Nous transformons l'attention en chiffre d'affaires",
+      "description": "Chez Pulse X, nous accompagnons les marques dans leur développement stratégique sur les réseaux sociaux, en nous appuyant sur notre expertise reconnue dans les contenus courts à fort potentiel de performance.",
+
+      "production": {
+        "title": "Production",
+        "description": "Nous concevons et produisons des contenus pensés pour capter l'attention et générer des résultats. Chaque création est adaptée aux codes, aux algorithmes et aux usages propres à TikTok, Instagram Reels, YouTube Shorts, Snapchat Spotlight et Pinterest."
+      },
+
+      "strategy": {
+        "title": "Stratégie",
+        "description": "Au-delà de la production, nous élaborons des campagnes éditoriales cohérentes, qu'elles s'inscrivent dans une ligne directrice globale ou autour de temps forts stratégiques afin de maximiser la portée, l'engagement et la conversion."
+      },
+
+      "optimization": {
+        "title": "Optimisation",
+        "description": "Notre approche consiste à aligner en permanence vos objectifs marketing avec les attentes de votre audience. Nous analysons, testons et optimisons afin de transformer la visibilité en performances mesurables."
+      },
+
+      "expertise": {
+        "title": "Expertise",
+        "description": "Avec Pulse X, vous bénéficiez d'une expertise approfondie des écosystèmes TikTok et Instagram, portée par une équipe spécialisée, expérimentée et constamment à jour."
+      }
+    },
+
+    "services": {
+      "title": "Nos services",
+
+      "brandContent": {
+        "title": "Brand Content",
+        "subtitle": "Gestion complète de vos comptes TikTok et Instagram",
+        "feature1": "Création de 8 à 12 vidéos organiques par mois",
+        "feature2": "Développement d'une stratégie de contenu sur mesure",
+        "feature3": "Écriture de scripts alignés avec votre identité de marque",
+        "feature4": "Tournage et montage vidéo professionnels",
+        "feature5": "Publication, optimisation et community management",
+        "feature6": "Veille des tendances et adaptation pour TikTok et Instagram",
+        "stat": "+ 4 M",
+        "statLabel": "Vues / Mois"
+      },
+
+      "socialAds": {
+        "title": "Social Ads",
+        "subtitle": "Production vidéo orientée performance",
+        "feature1": "Sélection stratégique des formats publicitaires les plus performants",
+        "feature2": "Création de contenus orientés conversion",
+        "feature3": "Expertise certifiée sur TikTok Ads Manager",
+        "feature4": "Mise en place de tests A/B continus",
+        "feature5": "Ciblage et optimisation avancés des audiences",
+        "feature6": "Suivi précis des conversions et analyse du ROI",
+        "feature7": "Association stratégique des créateurs et des médias pour maximiser les résultats",
+        "stat": "+ 100",
+        "statLabel": "Vidéos / Mois"
+      },
+
+      "influence": {
+        "title": "Influence",
+        "subtitle": "Accompagnement dans le lancement de campagnes",
+        "feature1": "Recommandations stratégiques et créatives",
+        "feature2": "Casting et sélection des talents",
+        "feature3": "Gestion des contrats influenceurs",
+        "feature4": "Validation des concepts créatifs",
+        "feature5": "Suivi et optimisation des performances",
+        "feature6": "Analyse approfondie et reporting",
+        "stat": "+ 250",
+        "statLabel": "Campagnes créatives"
+      },
+      "cta": "En savoir plus"
     },
     "faq": {
-      "questions": {
-        "1": "Pourquoi choisir Snackly pour mes vidéos ?",
-        "2": "Dois-je choisir l’Acting ou le Motion ?",
-        "3": "Combien de temps faut-il en moyenne pour recevoir mes vidéos ?",
-        "4": "Pourquoi ai-je besoin de vidéos dans mes campagnes ?",
-        "5": "Combien coûte une vidéo Snackly ?"
+      "title": "FAQ",
+
+      "item1": {
+        "question": "Pourquoi confier vos réseaux sociaux à Pulse X ?",
+        "answer": "Parce qu'une présence efficace sur les réseaux sociaux ne s'improvise pas. De la stratégie à la création de contenu, en passant par la publicité et l'analyse des performances, chaque étape est essentielle. Pulse X réunit toutes ces expertises au sein d'une seule équipe avec une exigence constante de qualité. Vous bénéficiez d'une gestion cohérente de l'ensemble de vos réseaux sociaux — Instagram, TikTok et bien plus encore — plutôt que d'actions dispersées."
       },
-      "answers": {
-        "1": "Chez Snackly, nous imaginons et réalisons des vidéos optimisées pour vos campagnes médias. Nos vidéos sont adaptées à chaque réseau social et à chaque emplacement de diffusion (Feed, Story, TrueView, Display), en tenant compte de leurs contraintes et opportunités spécifiques. Tout simplement parce qu’on ne communique pas de la même manière sur un feed Instagram que dans une publicité TikTok. C’est ce qui fait notre différence et ce qui nous anime au quotidien : chez Snackly, c’est le média qui dicte la création.",
-        "2": "Nos deux solutions sont pertinentes. Acting : c’est une option très performante car elle met souvent en scène de vraies personnes. Les vidéos en acting s’intègrent naturellement dans l’écosystème vidéo des réseaux sociaux. Cependant, puisqu’un tournage est nécessaire, la production est plus complexe à organiser et donc plus coûteuse. Motion : cette option est beaucoup plus scalable et facile à lancer. Vous disposez déjà d’assets graphiques tels que des photos, illustrations ou vidéos ? Nous les adaptons pour créer des vidéos parfaitement optimisées pour vos campagnes médias en un temps record. Toutefois, le résultat final dépend de la qualité de vos assets. Plus ils sont riches et attractifs visuellement, plus la vidéo sera impactante.",
-        "3": "Tout dépend du pack que vous choisissez. Si vous sélectionnez le pack Acting, le projet prendra généralement entre 5 et 6 semaines et vous recevrez toutes vos vidéos prêtes à être diffusées dans vos campagnes médias. Si vous choisissez notre pack Motion, nous pouvons aller plus vite et vous livrer vos vidéos en 3 à 4 semaines en moyenne. Le conseil Snackly : plus nous collaborons sur la durée, plus nos équipes maîtrisent le ton de votre marque, ce qui permet de réduire les délais de production. C’est pourquoi Snackly propose également des packs annuels.",
-        "4": "Aujourd’hui, la vidéo représente 80 % de la consommation mondiale de bande passante sur Internet. C’est le format de contenu le plus consommé par votre audience. De plus, selon TikTok, 80 % du ROAS (retour sur investissement publicitaire) d’une campagne dépend de la création elle-même. Alors, pouvez-vous vraiment vous permettre de ne pas utiliser la vidéo si vous souhaitez améliorer les performances de vos campagnes en ligne ?",
-        "5": "Une vidéo produite par Snackly coûte entre 1 500 € et 2 500 €. Le prix final dépend du pack choisi (Acting ou Motion) ainsi que du nombre de vidéos commandées. Notre objectif est de révolutionner le marché de la création de contenu vidéo. La production vidéo ne doit pas être excessivement coûteuse, car la plus grande partie de votre budget devrait être consacrée à la diffusion média afin de maximiser votre trafic et vos conversions."
+
+      "item2": {
+        "question": "Quels services propose Pulse X ?",
+        "answer": "Pulse X prend en charge l'ensemble de votre présence sur les réseaux sociaux : stratégie éditoriale, création de contenus, gestion des comptes, publicité digitale (Meta Ads, TikTok Ads), animation de communauté et reporting des performances. De la conception à la diffusion, votre communication est gérée de bout en bout avec une identité cohérente sur chaque plateforme."
+      },
+
+      "item3": {
+        "question": "Comment Pulse X développe-t-elle votre visibilité et votre audience ?",
+        "answer": "Notre approche repose sur les données et l'amélioration continue. Nous définissons votre positionnement, élaborons une stratégie éditoriale différenciante, puis produisons des contenus conçus pour maximiser la portée et l'engagement. Chaque action est mesurée, analysée et optimisée. L'objectif n'est pas seulement d'obtenir des chiffres, mais de construire une audience qualifiée, engagée et génératrice de valeur."
+      },
+
+      "item4": {
+        "question": "Quel budget prévoir pour travailler avec Pulse X ?",
+        "answer": "Nos prestations sont adaptées à vos objectifs et au périmètre de votre projet, qu'il s'agisse de gestion de contenu, d'acquisition payante ou d'un accompagnement global. Cette approche garantit que votre investissement correspond à vos ambitions tout en générant des résultats mesurables. Une proposition claire et détaillée vous est remise à l'issue de notre premier échange."
+      },
+
+      "item5": {
+        "question": "Quelle est la différence entre Pulse X et une agence social media traditionnelle ?",
+        "answer": "Pulse X fait partie de l'écosystème Play to Sky Group. Au-delà de la gestion de vos réseaux sociaux, vous bénéficiez des expertises d'un groupe créatif complet : branding, motion design, production vidéo et SEO. Un interlocuteur unique, une communication cohérente et la possibilité de développer votre stratégie bien au-delà des réseaux sociaux."
+      },
+
+      "item6": {
+        "question": "Comment mesurez-vous les performances des campagnes ?",
+        "answer": "Chaque campagne est pilotée à partir d'indicateurs précis : portée, taux d'engagement, croissance de l'audience, trafic généré et conversions. Vous recevez des rapports réguliers, clairs et exploitables présentant les résultats obtenus, les décisions prises et les optimisations réalisées. La transparence est au cœur de notre relation avec nos clients."
       }
     }
   },
-  "services": {
-    "strategy": {
-      "label": "Stratégie et identité de marque",
-      "subservices": {
-        "purpose": "RAISON D’ÊTRE, VISION, MISSION",
-        "positionning": "Positionnement et narration de marque",
-        "voice": "Ton de voix",
-        "messaging": "Messages de marque",
-        "name": "Nom de marque",
-        "logo": "Création de logo",
-        "visual": "Systèmes de design visuel",
-        "guidelines": "Charte de marque",
-        "copywriting": "Rédaction de contenu"
+  "influence": {
+    "seo": {
+      "title": "Marketing d'influence | Pulse X Agency",
+      "description": "Pulse X connecte les marques aux créateurs les plus pertinents pour des campagnes d'influence authentiques. Sélection stratégique, gestion complète des campagnes et optimisation des performances."
+    },
+
+    "hero": {
+      "title": "Influence",
+      "quote": "« Il est temps de créer des connexions qui comptent. »",
+      "tagline": "Des campagnes d'influence sur mesure pour renforcer votre image de marque et développer votre présence en ligne.",
+      "cta": "Découvrir notre réseau de créateurs",
+      "description": "Nos services de marketing d'influence reposent sur la création de collaborations authentiques entre les marques et les créateurs qui partagent réellement vos valeurs et s'adressent à votre audience. Nous concevons des campagnes performantes mêlant créativité, stratégie et engagement afin de favoriser votre développement sur les réseaux sociaux. De la création de contenu à la gestion complète des campagnes, chaque collaboration est pensée pour accroître votre visibilité, renforcer votre crédibilité et créer une relation durable avec votre communauté."
+    },
+
+    "process": {
+      "title": "NOTRE STRATÉGIE",
+      "subtitle": "Des campagnes pensées pour marquer les esprits. Grâce à notre expertise en influence marketing, nous imaginons des collaborations performantes qui renforcent votre notoriété et génèrent des résultats mesurables.",
+
+      "step1": {
+        "title": "Sélection stratégique",
+        "description": "Nous identifions les créateurs dont l'audience, l'image et le style de contenu correspondent parfaitement à votre marque et à vos objectifs."
+      },
+
+      "step2": {
+        "title": "Planification de campagne",
+        "description": "Chaque campagne est construite autour d'une stratégie personnalisée axée sur le storytelling, l'engagement de l'audience et une communication impactante."
+      },
+
+      "step3": {
+        "title": "Gestion complète",
+        "description": "De la prise de contact aux négociations, en passant par la validation des contenus et le suivi des publications, nous pilotons l'ensemble de la collaboration."
+      },
+
+      "step4": {
+        "title": "Optimisation des performances",
+        "description": "Nous analysons en continu les performances, les interactions et les résultats afin d'optimiser chaque campagne et garantir une croissance durable."
       }
     },
-    "web": {
-      "label": "Conception et développement web",
-      "subservices": {
-        "mapping": "Arborescence du site et parcours utilisateurs",
-        "flexible": "Conceptions de sites web flexibles",
-        "framer": "Sites web Framer",
-        "wordpress": "WordPress sur mesure",
-        "umbraco": "Umbraco sur mesure",
-        "shopify": "Shopify",
-        "accessibility": "Accessibilité",
-        "maintenance": "Maintenance",
-        "seo": "Référencement naturel (SEO)"
+
+    "why": {
+      "title": "Pourquoi travailler avec notre agence de marketing d'influence ?",
+
+      "item1": {
+        "title": "Des collaborations authentiques",
+        "description": "Nous privilégions des partenariats sincères entre les marques et les créateurs afin de produire des contenus naturels, engageants et crédibles."
+      },
+
+      "item2": {
+        "title": "Un engagement renforcé",
+        "description": "Les campagnes d'influence favorisent les interactions avec les communautés et permettent d'augmenter l'engagement, la visibilité et la fidélité des audiences."
+      },
+
+      "item3": {
+        "title": "Des contenus créatifs",
+        "description": "Collaborer avec des créateurs permet de bénéficier de contenus originaux, modernes et parfaitement adaptés aux codes des réseaux sociaux."
+      },
+
+      "item4": {
+        "title": "Une croissance mesurable",
+        "description": "Nos stratégies d'influence sont conçues pour générer des résultats concrets : notoriété, engagement, conversions, ventes et développement durable de votre communauté."
       }
-    },
-    "print": {
-      "label": "Design print",
-      "subservices": {
-        "brochures": "Brochures",
-        "reports": "Rapports annuels",
-        "stationery": "Papeterie",
-        "materials": "Supports promotionnels",
-        "menu": "Conception de menus",
-        "signage": "Signalétique et orientation",
-        "packaging": "Packaging",
-        "design": "Design",
-        "exhibition": "Exposition",
-        "infographics": "Infographies"
-      }
-    },
-    "video": {
-      "label": "Vidéo / Photographie",
-      "subservices": {
-        "video": "Contenus vidéo courts et longs formats",
-        "image": "Création de bibliothèques d’images de marque",
-        "onsite": "Photographie sur site",
-        "product": "Photographie produit",
-        "drones": "Prises de vue par drone"
-      }
-    },
-    "ai": {
-      "label": "Innovation IA",
-      "subservices": {
-        "model": "Modèles IA personnalisés pour la marque",
-        "virtual": "Photographie produit virtuelle",
-        "ambassadors": "Ambassadeurs de marque IA",
-        "generative": "Création de motifs génératifs",
-        "direction": "Direction créative pilotée par l’IA",
-        "automation": "Mise à l’échelle visuelle automatisée"
-      }
-    },
-    "digital": {
-      "label": "Conception de produits et d’expériences digitales",
-      "subservices": {
-        "strategy": "STRATÉGIE ET VISION PRODUIT",
-        "research": "RECHERCHE UX ET CARTOGRAPHIE UTILISATEUR",
-        "ui": "SYSTÈMES DE DESIGN UI",
-        "prototyping": "Prototypage interactif",
-        "experience": "EXPÉRIENCE DE MARQUE DIGITALE",
-        "performance": "Design orienté performance"
-      }
-    },
-    "storytelling": {
-      "label": "Storytelling de marque et contenu",
-      "subservices": {
-        "financial": "Présentations financières",
-        "training": "Supports de formation et webinaires",
-        "defense": "Présentations de soutenance",
-        "sales": "Présentations commerciales",
-        "event": "Présentations événementielles",
-        "powerpoint": "Modèles PowerPoint et Google Slides",
-        "internal": "Présentations internes",
-        "corporate": "Présentations corporate et institutionnelles",
-        "tender": "Présentations d’appels d’offres et RFP",
-        "interactive": "Présentations interactives",
-        "pitch": "Pitch decks et levées de fonds"
-      }
-    },
-    "growth": {
-      "label": "Technologie de croissance et optimisation",
-      "subservices": {}
-    },
-    "creative": {
-      "label": "Technologie créative",
-      "subservices": {}
-    },
-    "title": "Nos services",
-    "overview": "Vue d’ensemble"
+    }
   },
+  "brandContent": {
+    "seo": {
+      "title": "Brand Content | Pulse X Agency",
+      "description": "Pulse X crée des contenus visuels à fort impact pour les marques, de la conception à la réalisation. Photographie, vidéos courtes et campagnes créatives pensées pour refléter votre identité et engager votre audience."
+    },
+
+    "hero": {
+      "title": "Brand Content",
+      "quote": "« Il est temps de raconter une autre histoire. »",
+      "tagline": "Derrière chaque marque se cache une émotion qui mérite d'être partagée.",
+      "subtitle": "Plus qu'un contenu. Une expérience.",
+      "cta": "Découvrir nos réalisations",
+      "description": "Nous accompagnons les marques dans la création de contenus visuels impactants, conçus pour capter l'attention et renforcer leur présence en ligne. Du concept créatif à la réalisation finale, chaque projet reflète votre identité et engage votre audience. Photographie, vidéos courtes ou contenus de campagne : nous produisons des créations authentiques, modernes et mémorables."
+    },
+
+    "process": {
+      "title": "Notre processus",
+      "subtitle": "Vous vous concentrez sur votre activité, nous gérons votre présence sur les réseaux sociaux. De la définition de votre ligne éditoriale à la création de contenus réguliers, tout est pensé pour maintenir vos comptes actifs, cohérents et en constante évolution.",
+
+      "step1": {
+        "title": "Planification",
+        "description": "Nous définissons vos objectifs et élaborons une direction créative claire."
+      },
+
+      "step2": {
+        "title": "Production",
+        "description": "Tournage, photographie et création de contenus adaptés à votre marque."
+      },
+
+      "step3": {
+        "title": "Post-production",
+        "description": "Montage, étalonnage et ajustements finaux pour un rendu premium."
+      },
+
+      "step4": {
+        "title": "Publication",
+        "description": "Diffusion optimisée sur l'ensemble de vos réseaux sociaux."
+      }
+    },
+
+    "why": {
+      "title": "Pourquoi investir dans le Brand Content ?",
+
+      "item1": {
+        "title": "Gagner en visibilité",
+        "description": "Des contenus professionnels permettent à votre marque de se démarquer et d'attirer davantage d'attention."
+      },
+
+      "item2": {
+        "title": "Renforcer l'engagement",
+        "description": "Des visuels authentiques favorisent les interactions et créent un lien durable avec votre audience."
+      },
+
+      "item3": {
+        "title": "Créer une identité cohérente",
+        "description": "Une communication homogène renforce votre image de marque sur l'ensemble de vos plateformes."
+      },
+
+      "item4": {
+        "title": "Renforcer votre crédibilité",
+        "description": "Des contenus de qualité inspirent confiance et valorisent le professionnalisme de votre entreprise."
+      }
+    }
+  },
+  "socialAds": {
+    "seo": {
+      "title": "Social Ads | Pulse X Agency",
+      "description": "Pulse X conçoit et gère des campagnes publicitaires performantes sur Meta, TikTok et Instagram. Touchez la bonne audience, générez des leads et maximisez vos conversions."
+    },
+
+    "hero": {
+      "title": "Social Ads",
+      "quote": "« Il est temps de raconter une histoire différente. »",
+      "tagline": "Des campagnes publicitaires performantes conçues pour faire grandir votre marque en ligne.",
+      "cta": "Lancer votre campagne",
+      "description": "Nous concevons et pilotons des campagnes publicitaires stratégiques sur les réseaux sociaux afin d'aider les marques à gagner en visibilité, générer des leads et maximiser leurs conversions. Chaque campagne est optimisée pour toucher la bonne audience avec des visuels engageants et des messages efficaces."
+    },
+
+    "process": {
+      "title": "Notre stratégie",
+      "subtitle": "Des campagnes pensées pour performer. Nous créons des publicités sociales optimisées pour capter l’attention et générer des résultats mesurables.",
+
+      "step1": {
+        "title": "Analyse d’audience",
+        "description": "Comprendre votre cible et ses comportements pour définir la meilleure stratégie."
+      },
+
+      "step2": {
+        "title": "Structure de campagne",
+        "description": "Construction de campagnes optimisées pour maximiser les performances."
+      },
+
+      "step3": {
+        "title": "Création des visuels",
+        "description": "Production de contenus créatifs adaptés aux formats publicitaires."
+      },
+
+      "step4": {
+        "title": "Suivi des performances",
+        "description": "Analyse continue et optimisation des campagnes pour améliorer les résultats."
+      }
+    },
+
+    "why": {
+      "title": "Pourquoi investir dans la publicité sociale ?",
+
+      "item1": {
+        "title": "Améliorer la visibilité",
+        "description": "Les publicités sociales permettent d’augmenter rapidement votre notoriété et votre présence en ligne."
+      },
+
+      "item2": {
+        "title": "Générer du trafic qualifié",
+        "description": "Les campagnes ciblées attirent des utilisateurs réellement intéressés par vos services."
+      },
+
+      "item3": {
+        "title": "Atteindre votre audience idéale",
+        "description": "Les outils de ciblage permettent de diffuser vos annonces aux bonnes personnes."
+      },
+
+      "item4": {
+        "title": "Augmenter les conversions",
+        "description": "Des campagnes optimisées transforment l’attention en actions concrètes (ventes, leads, etc.)."
+      }
+    }
+  },
+  "ourCommitment": {
+    "title": "Notre engagement",
+    "paragraph1": "Nous créons des contenus publicitaires à fort impact conçus pour capter l’attention, augmenter l’engagement et générer une croissance mesurable pour votre entreprise. De la stratégie à la production créative jusqu’à l’optimisation des campagnes, chaque élément est pensé pour maximiser les performances sur l’ensemble des plateformes sociales.",
+    "paragraph2": "Notre objectif est d’aider votre marque à toucher la bonne audience, renforcer sa visibilité et atteindre un succès marketing durable grâce à des stratégies publicitaires efficaces."
+  },
+  "about": {
+    "seo": {
+      "title": "À propos | Pulse X Agency – Social Creative Agency",
+      "description": "Découvrez Pulse X, une agence créative social media réunissant chefs de projet, experts en production et spécialistes médias pour créer des contenus digitaux et campagnes performantes."
+    },
+
+    "hero": {
+      "subtitle": "Pulse X est portée par une équipe de spécialistes profondément ancrés dans l’évolution des usages digitaux."
+    },
+
+    "intro": "Dès le départ, nous avons voulu repenser le modèle traditionnel des agences en réunissant plusieurs expertises au sein d’une même structure : accompagnement client, direction créative et production. Cette approche répond aux attentes d’une nouvelle génération de marques et de talents.",
+
+    "roles": {
+      "projectLeads": {
+        "title": "Chefs de projet",
+        "description": "Vos interlocuteurs principaux. Ils coordonnent chaque étape de votre projet, de la stratégie à l’exécution, tout en optimisant les performances pour améliorer les résultats."
+      },
+
+      "production": {
+        "title": "Production & post-production",
+        "description": "Ils donnent vie à vos contenus. Réalisateurs, monteurs et motion designers collaborent pour produire des contenus alignés avec votre identité et adaptés aux plateformes."
+      },
+
+      "media": {
+        "title": "Experts média",
+        "description": "Orientés performance, ils gèrent et optimisent vos campagnes publicitaires afin de maximiser votre croissance, qu’il s’agisse de notoriété, d’engagement ou de conversions."
+      }
+    },
+
+    "cta": {
+      "button": "Nous contacter"
+    }
+  },
+
   "locations": {
     "badge": "GLOBAL NETWORK",
     "title": "Pulse X, une vision unique pour votre croissance.",
@@ -168,162 +363,153 @@
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "description": "Découvrez quelles données nous collectons, pourquoi nous les utilisons et quels sont vos droits concernant leur traitement.",
-    "lastUpdate": "Dernière mise à jour : 24 juin 2026",
-    "company": {
-      "name": "Visuance Agency",
-      "email": "contact@visuanceagency.com"
-    },
 
-    "collectedData": {
-      "title": "Quelles données collectons-nous ?",
-      "description": "Visuance peut collecter des données lorsque vous :",
+    "collection": {
+      "title": "Collecte des données",
+      "intro": "Pulse X Agency peut collecter des données personnelles lorsque vous :",
       "item1": "Remplissez un formulaire de contact",
       "item2": "Demandez un devis",
       "item3": "Naviguez sur le site",
-      "fieldsTitle": "Données susceptibles d’être collectées",
-      "field1": "Nom",
-      "field2": "Prénom",
-      "field3": "Adresse e-mail",
-      "field4": "Téléphone",
-      "field5": "Entreprise",
-      "field6": "Message",
-      "field7": "Adresse IP",
-      "field8": "Données de navigation"
+      "description": "Les données collectées peuvent inclure : prénom, nom, adresse e-mail, numéro de téléphone, nom de l'entreprise, message, données de navigation et adresse IP."
     },
 
-    "purposes": {
-      "title": "Pourquoi utilisons-nous vos données ?",
+    "useOfData": {
+      "title": "Utilisation des données",
       "item1": "Répondre aux demandes de contact",
-      "item2": "Fournir des devis et prestations",
-      "item3": "Améliorer l’expérience utilisateur",
-      "item4": "Analyser les performances du site",
-      "item5": "Développer les services proposés"
+      "item2": "Fournir des devis et des prestations",
+      "item3": "Améliorer le site web et l'expérience utilisateur",
+      "item4": "Gérer la relation client",
+      "item5": "Analyser les performances marketing"
     },
 
-    "legalBases": {
-      "title": "Sur quelle base légale reposent les traitements ?",
-      "item1": "Le consentement de l’utilisateur",
-      "item2": "L’exécution d’une relation précontractuelle",
-      "item3": "L’intérêt légitime de l’entreprise"
+    "legalBasis": {
+      "title": "Base légale",
+      "item1": "Le consentement de l'utilisateur",
+      "item2": "L'exécution d'une relation précontractuelle",
+      "item3": "L'intérêt légitime de l'entreprise"
     },
 
     "retention": {
-      "title": "Combien de temps conservons-nous vos données ?",
-      "prospectsTitle": "Prospects",
-      "prospectsDescription": "Jusqu’à 3 ans après le dernier contact.",
-      "clientsTitle": "Clients / obligations légales",
-      "clientsDescription": "Jusqu’à 10 ans selon les obligations légales applicables."
+      "title": "Conservation des données",
+      "prospects": "Prospects : jusqu'à 3 ans après le dernier contact.",
+      "clients": "Clients : jusqu'à 10 ans conformément aux obligations légales."
     },
 
     "sharing": {
-      "title": "Avec qui partageons-nous vos données ?",
-      "item1": "Prestataires techniques (hébergement, CRM, analytics)",
-      "item2": "Services nécessaires au fonctionnement du site",
-      "notice": "Aucune donnée n’est vendue ou cédée à des tiers."
+      "title": "Partage des données",
+      "intro": "Les données personnelles peuvent uniquement être partagées avec :",
+      "item1": "Les prestataires techniques (hébergement, CRM, analytics)",
+      "item2": "Les services nécessaires au fonctionnement du site",
+      "description": "Aucune donnée personnelle n'est vendue ni partagée à des fins commerciales."
     },
 
     "cookies": {
-      "title": "Comment utilisons-nous les cookies ?",
-      "item1": "Mesurer l’audience",
-      "item2": "Améliorer la navigation",
-      "item3": "Optimiser les performances marketing",
-      "description": "Un bandeau de consentement permet de gérer vos préférences."
+      "title": "Cookies",
+      "intro": "Ce site utilise des cookies pour :",
+      "item1": "Mesurer l'audience du site",
+      "item2": "Optimiser la navigation",
+      "item3": "Améliorer les performances marketing",
+      "description": "Une bannière de consentement permet aux utilisateurs de gérer leurs préférences."
     },
 
     "rights": {
-      "title": "Quels sont vos droits ?",
-      "item1": "Droit d’accès",
-      "item2": "Droit de rectification",
-      "item3": "Droit de suppression",
-      "item4": "Droit d’opposition",
-      "item5": "Droit à la portabilité",
-      "contactTitle": "Exercer vos droits"
+      "title": "Vos droits (RGPD)",
+      "intro": "Conformément au RGPD, vous disposez des droits suivants :",
+      "item1": "Accéder à vos données",
+      "item2": "Rectifier vos données",
+      "item3": "Supprimer vos données",
+      "item4": "Vous opposer au traitement",
+      "item5": "Portabilité des données",
+      "description": "Pour exercer vos droits, contactez-nous à"
     },
 
     "security": {
-      "title": "Comment protégeons-nous vos données ?",
-      "description": "Visuance met en œuvre des mesures techniques et organisationnelles afin de protéger vos données contre toute perte, accès non autorisé ou divulgation."
+      "title": "Sécurité",
+      "description": "Pulse X Agency met en œuvre des mesures techniques et organisationnelles appropriées afin de protéger les données personnelles contre tout accès non autorisé, perte ou divulgation."
     },
 
-    "updates": {
-      "title": "Cette politique peut-elle évoluer ?",
-      "description": "Cette politique peut être mise à jour à tout moment afin de respecter les évolutions légales ou techniques."
+    "changes": {
+      "title": "Modifications",
+      "description": "Cette politique de confidentialité peut être mise à jour à tout moment afin de rester conforme à la législation en vigueur."
     },
 
-    "footer": {
+    "lastUpdate": {
+      "title": "Dernière mise à jour",
+      "value": "24 juin 2026"
+    },
+
+    "contact": {
       "title": "Contact"
+    },
+
+    "company": {
+      "email": "contact@pulsexagency.com"
     }
   },
   "legal": {
     "title": "Mentions légales",
-    "description": "Informations relatives à l’éditeur du site, à son hébergement, à son activité et aux conditions d’utilisation de Visuance.",
 
     "publisher": {
-      "title": "Qui édite ce site ?",
-      "company": {
-        "label": "Société",
-        "value": "Visuance Agency"
-      },
-      "contact": {
-        "label": "Contact",
-        "value": "contact@visuanceagency.com"
-      }
+      "title": "Éditeur",
+      "intro": "Le site Pulse X Agency, accessible à l'adresse",
+      "outro": "est édité par :",
+
+      "companyLabel": "Société",
+      "emailLabel": "E-mail",
+
+      "company": "Visuance Agency",
+      "email": "contact@visuanceagency.com",
+      "website": "https://www.pulsexagency.com/"
     },
 
     "hosting": {
-      "title": "Où le site est-il hébergé ?",
-      "provider": {
-        "label": "Hébergeur",
-        "value": "OVH Cloud"
-      },
-      "website": {
-        "label": "Site web",
-        "value": "www.ovhcloud.com",
-        "url": "https://www.ovhcloud.com"
-      }
+      "title": "Hébergement",
+
+      "hostLabel": "Hébergeur",
+      "websiteLabel": "Site web",
+
+      "host": "OVH Cloud",
+      "website": "https://www.ovhcloud.com/"
     },
 
-    "activity": {
-      "title": "Quelle est l’activité de Visuance ?",
-      "description": "Visuance est une agence spécialisée dans la création et l’optimisation de solutions digitales.",
-      "item1": "Création de sites web",
-      "item2": "Branding & identité visuelle",
-      "item3": "UX/UI design",
-      "item4": "Stratégie digitale",
-      "item5": "Marketing et acquisition"
+    "activities": {
+      "title": "Activités",
+
+      "websiteDevelopment": "Développement de sites web sur mesure",
+      "branding": "Branding & identité visuelle",
+      "uiux": "UX/UI Design",
+      "strategy": "Stratégie digitale & marketing",
+      "seo": "SEO & acquisition de trafic",
+      "content": "Création de contenus digitaux"
     },
 
     "intellectualProperty": {
-      "title": "Comment sont protégés les contenus ?",
-      "cardTitle": "Protection des contenus",
-      "cardDescription": "L’ensemble du contenu présent sur le site Visuance (textes, images, graphismes, logos, vidéos, structure, etc.) est protégé par le droit de la propriété intellectuelle.",
-      "description": "Toute reproduction, représentation, modification ou exploitation, totale ou partielle, sans autorisation écrite préalable est strictement interdite."
+      "title": "Propriété intellectuelle",
+      "description": "L'ensemble des contenus présents sur ce site (textes, visuels, logos, vidéos, maquettes, structure, etc.) est protégé par le droit de la propriété intellectuelle. Toute reproduction, diffusion ou utilisation sans autorisation écrite préalable est strictement interdite."
     },
 
-    "responsibility": {
-      "title": "Quelle est notre responsabilité ?",
-      "description": "Visuance s’efforce de fournir des informations fiables et à jour. Cependant, l’éditeur ne peut être tenu responsable :",
-      "item1": "Des erreurs ou omissions",
-      "item2": "D’une indisponibilité temporaire du site",
-      "item3": "De l’utilisation faite des informations présentes"
+    "liability": {
+      "title": "Responsabilité",
+      "intro": "Pulse X Agency s'efforce de fournir des informations exactes et régulièrement mises à jour. Toutefois, l'éditeur ne saurait être tenu responsable de :",
+
+      "errors": "Erreurs ou omissions",
+      "interruptions": "Interruptions temporaires du site",
+      "usage": "L'utilisation faite des informations publiées sur le site"
     },
 
     "externalLinks": {
-      "title": "Qu’en est-il des sites tiers ?",
-      "description": "Le site peut contenir des liens vers d’autres sites web. Visuance décline toute responsabilité concernant le contenu de ces sites tiers."
+      "title": "Liens externes",
+      "description": "Ce site peut contenir des liens vers des sites tiers. Pulse X Agency décline toute responsabilité concernant le contenu de ces sites externes."
     },
 
-    "privacy": {
-      "title": "Comment sont traitées les données personnelles ?",
-      "description": "Les données personnelles collectées via le site sont traitées conformément à la réglementation en vigueur et à notre politique de confidentialité.",
-      "link": "Consulter la politique de confidentialité →",
-      "href": "/privacy-policy"
+    "personalData": {
+      "title": "Données personnelles",
+      "description": "Les données personnelles collectées via ce site sont traitées conformément à la réglementation en vigueur et à notre politique de confidentialité."
     },
 
     "applicableLaw": {
       "title": "Droit applicable",
-      "description": "Le présent site est soumis au droit français. Tout litige sera soumis à la compétence des tribunaux du ressort du siège social de Visuance."
+      "description": "Le présent site est soumis au droit français. Tout litige relève de la compétence des tribunaux du ressort du siège social de Pulse X Agency."
     }
   },
   "contact": {
@@ -395,22 +581,17 @@
       }
     }
   },
-  "about": {
-    "title": "Qui sommes-nous ?",
-    "sentence1": "Derrière chaque identité de marque forte se cache une équipe passionnée.",
-    "sentence2": "Notre studio réunit des professionnels créatifs et techniques qui partagent une même vision : concevoir des expériences visuelles cohérentes, utiles et mémorables. Designers, stratèges et développeurs travaillent main dans la main pour transformer les idées en marques vivantes et en produits digitaux performants.",
-    "sentence3": "Les directeurs artistiques donnent le ton et veillent à la cohérence esthétique de chaque projet. Les designers façonnent des univers visuels, imaginent des identités de marque et créent des interfaces à la fois élégantes et intuitives. Les stratèges de marque analysent les enjeux, clarifient les messages et construisent des fondations solides afin que chaque identité soit porteuse de sens et d’impact.",
-    "sentence4": "À leurs côtés, les développeurs donnent vie aux concepts. Ils transforment les maquettes en expériences interactives fluides, performantes et durables. Leur expertise technique garantit que chaque création soit non seulement belle, mais aussi fonctionnelle et évolutive.",
-    "sentence5": "Ce qui nous distingue, c’est notre manière de travailler : une collaboration permanente. Les idées circulent librement, les compétences se complètent et chaque projet bénéficie d’une vision collective. Cette synergie nous permet d’allier créativité, rigueur et innovation.",
-    "sentence6": "Notre équipe n’est pas seulement composée de spécialistes : ce sont des explorateurs, des artisans du détail et des partenaires engagés dans la réussite de nos clients.",
-    "sentence7": "Ensemble, nous créons des identités qui racontent une histoire, des designs qui captivent et des expériences digitales qui durent."
-  },
   "footer": {
-    "presence": "Présence sur les réseaux sociaux",
-    "legacy": "Mentions légales",
-    "contact": "Contact",
-    "policy": "Politique",
-    "group": "Le Groupe",
+    "titles": {
+      "policy": "Politique",
+      "services": "Services",
+      "entities": "Nos entités",
+      "networks": "Nos réseaux"
+    },
+    "policy": {
+      "policy": "Confidentialité",
+      "notices": "Mentions légales"
+    },
     "rights": "Tous droits réservés.",
     "creators": "créé par"
   }

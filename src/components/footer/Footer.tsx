@@ -1,6 +1,7 @@
 import React from "react";
 import { entites, politique, services, social } from "./FooterData.tsx";
 import CreatedBy from "./CreatedBy.tsx";
+import { useTranslation } from "react-i18next";
 
 const FooterColumn = ({
   title,
@@ -33,6 +34,7 @@ const FooterLink = ({
 );
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer
       className="relative w-full overflow-hidden"
@@ -62,31 +64,31 @@ const Footer = () => {
 
         {/* Columns */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
-          <FooterColumn title="Politics">
+          <FooterColumn title={t("footer.titles.policy")}>
             {politique.map((link) => (
               <FooterLink key={link.href} href={link.href}>
-                {link.label}
+                {t(link.label)}
               </FooterLink>
             ))}
           </FooterColumn>
 
-          <FooterColumn title="Services">
+          <FooterColumn title={t("footer.titles.services")}>
             {services.map((link) => (
               <FooterLink key={link.href} href={link.href}>
-                {link.label}
+                {t(link.label)}
               </FooterLink>
             ))}
           </FooterColumn>
 
-          <FooterColumn title="Our entities">
+          <FooterColumn title={t("footer.titles.entities")}>
             {entites.map((link) => (
               <FooterLink key={link.href} href={link.href}>
-                {link.label}
+                {t(link.label)}
               </FooterLink>
             ))}
           </FooterColumn>
 
-          <FooterColumn title="Our networks">
+          <FooterColumn title={t("footer.titles.networks")}>
             <div className="flex flex-wrap gap-3 mt-1">
               {social.map((s) => (
                 <a
