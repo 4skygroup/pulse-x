@@ -517,7 +517,7 @@
     "detailedPhrase": "Our experts help you define a digital strategy aligned with your goals. Contact us using the communication method that suits you best.",
     "mail": {
       "label": "Email",
-      "value": "contact@visuanceagency.com"
+      "value": "contact@pulsexagency.com"
     },
     "phone": {
       "label": "Phone",
@@ -568,16 +568,11 @@
       "hourOfCall": "Call time",
       "selectPlaceholder": "Select",
       "services": {
-        "strategy": "Brand Strategy and Identity",
-        "web": "Web design and development",
-        "print": "Print Design",
-        "video": "Video / Photography",
-        "ai": "AI Innovation",
-        "digital": "Digital Product and Experience Design",
-        "storytelling": "Brand Storytelling and Content",
-        "growth": "Growth Technology and Optimisation",
-        "creative": "Creative Technology",
-        "other": "Other Inquiry"
+        "seo": "Search Engine Optimization",
+        "ads": "Social Ads",
+        "marketing": "Content Marketing",
+        "analytics": "Analytics",
+        "other": "Other inquiry"
       }
     }
   },

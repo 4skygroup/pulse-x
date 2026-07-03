@@ -10,8 +10,8 @@
   "home": {
     "hero": {
       "title": "Social Creative Agency",
-      "subtitle": "Social Agency - Media and Community Management",
-      "button": "Start"
+      "subtitle": "Agence Social Media et de Community Management",
+      "button": "Commencer"
     },
     "revenue": {
       "title": "Nous transformons l'attention en chiffre d'affaires",
@@ -517,7 +517,7 @@
     "detailedPhrase": "Nos experts vous accompagnent dans la définition d’une stratégie digitale alignée sur vos objectifs. Contactez-nous selon le mode d’échange qui vous convient le mieux.",
     "mail": {
       "label": "Email",
-      "value": "contact@visuanceagency.com"
+      "value": "contact@pulsexagency.com"
     },
     "phone": {
       "label": "Téléphone",
@@ -568,15 +568,10 @@
       "hourOfCall": "Horaire de l’appel",
       "selectPlaceholder": "Sélectionner",
       "services": {
-        "strategy": "Stratégie et identité de marque",
-        "web": "Conception et développement web",
-        "print": "Design d'impression",
-        "video": "Vidéo / Photographie",
-        "ai": "Innovation IA",
-        "digital": "Conception de produits et d’expériences digitales",
-        "storytelling": "Storytelling de marque et création de contenu",
-        "growth": "Technologie de croissance et optimisation",
-        "creative": "Technologie créative",
+        "seo": "SEO & Référencement",
+        "ads": "Social Ads",
+        "marketing": "Content Marketing",
+        "analytics": "Analytics",
         "other": "Autre demande"
       }
     }
