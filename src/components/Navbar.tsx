@@ -31,12 +31,12 @@ export default function Navbar() {
       external: true,
     },
     {
-      label: t("header.services"),
+      label: t("header.services.label"),
       path: "/services",
       subItems: [
-        { label: "Brand Content", path: "/brandcontent" },
-        { label: "Social Ads", path: "/socialads" },
-        { label: "Influence", path: "/influence" },
+        { label: "header.services.brand", path: "/brandcontent" },
+        { label: "header.services.social", path: "/socialads" },
+        { label: "header.services.influence", path: "/influence" },
       ],
     },
     { label: t("header.about"), path: "/about" },
@@ -51,12 +51,12 @@ export default function Navbar() {
     },
     { label: t("header.locations"), path: "/location" },
     {
-      label: t("header.services"),
+      label: t("header.services.label"),
       path: "/services",
       subItems: [
-        { label: "Brand Content", path: "/brandcontent" },
-        { label: "Social Ads", path: "/socialads" },
-        { label: "Influence", path: "/influence" },
+        { label: "header.services.brand", path: "/brandcontent" },
+        { label: "header.services.social", path: "/socialads" },
+        { label: "header.services.influence", path: "/influence" },
       ],
     },
     { label: t("header.about"), path: "/about" },
@@ -133,7 +133,7 @@ export default function Navbar() {
                   }`
                 }
               >
-                {label}
+                {t(label)}
                 {subItems && (
                   <svg
                     className={`w-3 h-3 transition-transform duration-200 ${servicesOpen ? "rotate-180" : ""}`}
@@ -168,7 +168,7 @@ export default function Navbar() {
                         }`
                       }
                     >
-                      {sub.label}
+                      {t(sub.label)}
                     </NavLink>
                   </li>
                 ))}
@@ -269,7 +269,7 @@ export default function Navbar() {
                           }}
                           className="font-glacial text-t3 text-white/80 hover:text-white transition-colors duration-200"
                         >
-                          {sub.label}
+                          {t(sub.label)}
                         </NavLink>
                       </li>
                     ))}
@@ -336,7 +336,7 @@ export default function Navbar() {
 
         {/* Mention en bas */}
         <p className="text-center text-white/50 text-t5 pb-8 font-glacial">
-          A Play To Sky Group Entity
+          {t("header.bottomPhrase")}
         </p>
       </div>
     </nav>

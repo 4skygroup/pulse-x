@@ -2,7 +2,13 @@
   "header": {
     "home": "Home",
     "group": "The Group",
-    "services": "Services",
+    "services": {
+      "label": "Services",
+      "brand": "Brand Content",
+      "social": "Social Ads",
+      "influence": "Influence"
+    },
+    "bottomPhrase": "A Play To Sky Group Entity",
     "locations": "Our locations",
     "about": "About",
     "contact": "Contact"
