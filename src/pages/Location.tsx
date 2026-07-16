@@ -43,7 +43,7 @@ export default function Location() {
           </div>
         </div>
       </section>
-
+      {/*  */}
       <section style={{ padding: "20px", backgroundImage: "#000" }}>
         <GlobeMap />
       </section>
