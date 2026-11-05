@@ -117,9 +117,9 @@ export default function MentionsLegales() {
   return (
     <main className="min-h-screen bg-black font-glacial px-6 py-20 md:px-16 lg:px-32">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-h6 font-bold text-white mb-2">
+        <h1 className="text-h6 font-bold text-white mb-2">
           {t("legal.title")}
-        </h2>
+        </h1>
 
         <div className="w-12 h-0.5 mb-12" />
 

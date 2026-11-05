@@ -27,9 +27,9 @@ const About = () => {
 
         {/* Red banner */}
         <div className="w-full bg-[#970909] py-4 px-4 md:px-8 mt-6 md:mt-10">
-          <p className="text-white text-t6 md:text-t5 text-center font-glacial italic max-w-4xl mx-auto leading-relaxed">
+          <h1 className="text-white text-t6 md:text-t5 text-center font-glacial italic max-w-4xl mx-auto leading-relaxed">
             {t("about.hero.subtitle")}
-          </p>
+          </h1>
         </div>
       </section>
 
