@@ -8,8 +8,8 @@ function Home() {
     return (
         <>
             <Seo
-                title="Pulse X | Social Creative Agency – Brand Content, Social Ads & Influence"
-                description="Pulse X is a social creative agency specializing in Brand Content, Social Ads and Influencer Marketing. We create impactful content to grow your brand on TikTok, Instagram, and Meta."
+                title="Pulse X | Agence social media créative – Brand Content, Social Ads & Influence"
+                description="Pulse X est une agence social media créative : brand content, social ads et marketing d'influence. Nous créons des contenus qui font grandir votre marque sur TikTok, Instagram et Meta."
                 path="/"
             />
             <Hero/>

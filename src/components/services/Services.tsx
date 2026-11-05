@@ -1,7 +1,9 @@
 import { useTranslation } from "react-i18next";
 import ServiceCard from "./ServicesCard.tsx";
 
-export default function Services() {
+// titrePrincipal : sur la page /services, ce titre est le titre principal (h1).
+export default function Services({ titrePrincipal = false }: { titrePrincipal?: boolean }) {
+  const Titre = titrePrincipal ? "h1" : "h2";
   const { t } = useTranslation();
 
   const services = [
@@ -61,9 +63,9 @@ export default function Services() {
 
       <div className="relative max-w-5xl mx-auto">
         {/* Title */}
-        <h2 className="text-center text-white text-t3 md:text-h6 font-bold uppercase mb-14">
+        <Titre className="text-center text-white text-t3 md:text-h6 font-bold uppercase mb-14">
           {t("home.services.title")}
-        </h2>
+        </Titre>
 
         {/* Cards */}
         <div className="flex flex-col gap-5">

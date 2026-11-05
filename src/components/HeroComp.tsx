@@ -34,9 +34,9 @@ export default function HeroComp({
         <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] items-center gap-14 lg:gap-16 pt-28 lg:pt-32">
           {/* LEFT */}
           <div className="flex flex-col">
-            <h2 className="text-white leading-[0.85] text-5xl sm:text-6xl md:text-7xl lg:text-h2">
+            <h1 className="text-white leading-[0.85] text-5xl sm:text-6xl md:text-7xl lg:text-h2">
               {titre}
-            </h2>
+            </h1>
 
             <p className="mt-5 text-pulse-x-subtitle-gray italic text-lg sm:text-xl md:text-2xl">
               {citation}
